@@ -1,0 +1,388 @@
+@import url(http://fonts.googleapis.com/css?family=Didact+Gothic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Cantata+One);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+
+body {
+	background: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+div#wrapper {
+
+}
+
+hgroup {
+	font-family: 'Didact Gothic', cursive;
+	margin: 0 0 0 0;
+	background-color: #222;
+	padding: 15px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 72px;
+	text-transform: uppercase;
+}
+
+h1 a {
+	text-decoration: none;
+	color: #00bfff;
+}
+
+h2 {
+	font-size: 20px;
+	color: #fff;
+}
+
+h3,
+article h3 a:link,
+article h3 a:visited,
+article h3 a:hover,
+article h3 a:active {
+	font-size: 32px;
+	color: #111;
+	text-transform: uppercase;
+	margin-bottom: 12px;
+	text-decoration: none;
+}
+
+nav {
+	text-align: center;
+	background-color: #f0f8ff;
+	padding: 10px 0;
+}
+
+nav.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+	box-shadow: 0 0 6px #ccc;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+nav a:link, nav a:visited {
+	display: inline-block;
+	text-decoration: none;
+	color: #111;
+	padding: 3px 0;
+	border-bottom: 3px solid transparent;
+}
+
+nav a.twitter {
+	background: url(http://marcon.me/blog/resources/twitter.png) no-repeat 0 60%;
+	padding-left: 24px;
+}
+
+nav a:hover, nav a:active {
+	color: #00bfff;
+}
+
+strong {
+	font-weight: 600;
+}
+
+section#content {
+	margin: 40px auto 20px auto;
+	padding: 0 20px;
+	max-width: 960px;
+	position: relative;
+	z-index: 999;
+}
+
+article {
+	line-height: 1.5;
+	position: relative;
+	margin: 0 0 0 100px;
+	color: #111;
+}
+
+article a:link, article a:visited,
+a.dsq-comment-count:link, a.dsq-comment-count:visited {
+	color: #00bfff;
+}
+
+article a:hover, article a:active,
+a.dsq-comment-count:hover, a.dsq-comment-count:active {
+	color: #1e90ff;
+}
+
+article p {
+	margin-bottom: 10px;
+}
+
+article ul {
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-left: 1em;
+	margin-bottom: 10px;
+}
+
+article iframe {
+	display: block;
+	margin: 20px auto;
+	border: 6px solid #fff;
+	-webkit-box-shadow: 0 0 8px #ccc;
+	-moz-box-shadow: 0 0 8px #ccc;
+	box-shadow: 0 0 8px #ccc;
+}
+
+article .link {}
+
+article .link h3 a:link, article .link h3 a:visited {
+	color: #111;
+	text-decoration: none;
+	display: block;
+	background: url(http://marcon.me/blog/resources/link.png) no-repeat center left;
+	padding-left: 28px;
+}
+
+article .link h3 a:hover, article .link h3 a:active {
+	text-decoration: underline;
+}
+
+article .video {}
+
+article .audio {}
+
+article .chat {}
+
+article .chat .person {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+article .chat .even .person {
+	color: #1e90ff;
+}
+
+article .chat .person-said {
+	font-family: "Cantata One", serif;
+	font-weight: 300;
+}
+
+article .answer {}
+
+article .text {
+	font-size: 16px;
+}
+
+article .text img {
+	display: block;
+	margin: 10px auto;
+	border: 6px solid #fff;
+	-webkit-box-shadow: 0 0 8px #ccc;
+	-moz-box-shadow: 0 0 8px #ccc;
+	box-shadow: 0 0 8px #ccc;
+}
+
+article .quote {}
+
+article .quote blockquote {
+	font-size: 24px;
+	width: 70%;
+}
+
+article .quote blockquote p {
+	margin: 0 60px;
+	line-height: 1.1;
+}
+
+article .photo {}
+
+article .photo figure {
+	overflow: hidden;
+}
+
+article .photo img {
+	display: block;
+	float: left;
+	border: 10px solid #fff;
+	-webkit-box-shadow: 0 0 8px #999;
+	-moz-box-shadow: 0 0 8px #999;
+	box-shadow: 0 0 8px #999;
+	margin: 8px;
+}
+
+article .photo figcaption {
+	display: block;
+	margin-left: 300px;
+}
+
+article time {
+	background-color: #fff;
+	color: #111;
+	height: 36px;
+	width: 80px;
+	display: block;
+	padding: 5px;
+	float: left;
+	position: absolute;
+	top: 0;
+	left: -100px;
+	line-height: 1;
+	overflow: hidden;
+	box-shadow: -2px 0px 5px #eee;
+	font-weight: 300;
+}
+
+article time .day-of-week {
+	display: none;
+}
+
+article time .day-of-month {
+	font-family: 'Didact Gothic', cursive;
+	font-size: 36px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	color: #111;
+}
+
+article time .month {
+	display: block;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+article time .year {
+	display: block;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
+
+article .text h2,
+article .text h4 {
+	color: #111;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.pagination {
+	overflow: hidden;
+}
+
+.pagination a:link, .pagination a:visited {
+	display: block;
+	text-decoration: none;
+	color: #111;
+	text-transform: uppercase;
+	padding: 3px 0;
+}
+
+.pagination a.prev {
+	float: left;
+	padding-left: 22px;
+	background: url(http://marcon.me/blog/resources/left.png) no-repeat left center;
+}
+
+.pagination a.next {
+	float: right;
+	padding-right: 22px;
+	background: url(http://marcon.me/blog/resources/right.png) no-repeat right center;
+}
+
+.pagination a.prev:hover, .pagination a.prev:active {
+	padding-left: 18px;
+}
+
+.pagination a.next:hover, .pagination a.next:active {
+	padding-right: 18px;
+}
+
+article p.permalink-block {
+	margin-top: 30px;
+}
+
+article p.permalink-block a.permalink {
+	background: url(http://marcon.me/blog/resources/link-small.png) no-repeat center left;
+	display: inline-block;
+	color: #111;
+	padding: 3px 3px 3px 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+footer {
+	font-family: 'Didact Gothic', cursive;
+	font-size: 11px;
+	background-color: #222;
+	color: #00bfff;
+	text-align: right;
+	padding: 6px 5px;
+}
+
+/*Blockquote styles are the same anywhere*/
+blockquote {
+	font-family: "Cantata One", serif;
+	position: relative;
+}
+
+blockquote .left-q {
+	display: block;
+	position: absolute;
+	top: -10px;
+	left: 0;
+	font-size: 96px;
+	color: #00bfff;
+	line-height: 1;
+}
+
+blockquote .right-q {
+	display: none;
+}
+
+p.source {
+	width: 70%;
+	text-align: right;
+}
+
+/*Same for code*/
+pre {
+	display: block;
+	color: #333;
+	line-height: 1.1;
+	padding: 3px 6px;
+	border-left: 3px solid #00bfff;
+	margin: 15px 0;
+}
+
+code {
+	font-family: "Ubuntu Mono", monospace;
+}
+
+em {
+	font-style: italic;
+}
+
+.disqus-div {
+	font-size: 12px;
+	text-align: left;
+	margin: 0 0 30px 100px;
+}
+
+#disqus_thread {
+	margin-left: 100px;
+}

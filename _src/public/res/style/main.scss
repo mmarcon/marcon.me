@@ -1,3 +1,33 @@
+@import 'reset';
+@import 'fa/font-awesome';
+
+//Variables
+$menuWidth: 20rem;
+$menuTransitionDuration: 0.3s;
+
+html, body, .container, .pusher {
+    height: 100%;
+}
+
+html {
+    font-size: 10px;
+}
+
 body {
+    background: #333;
+}
+
+.pusher {
+    transform: translateX(-$menuWidth);
+    transition: all $menuTransitionDuration linear;
+
+    &.pushed {
+        transform: translateX(0);
+    }
+}
+
+.menu {
+    width: $menuWidth;
     background: #fff;
+    height: 100%;
 }

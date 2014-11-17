@@ -1,9 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
+
 @import 'reset';
 @import 'fa/font-awesome';
 
 //Variables
-$menuWidth: 20rem;
+$menuWidth: 25rem;
 $menuTransitionDuration: 0.3s;
+
+//Colors
+$bodyBgColor: #FAC273;
+$menuColor: #8C7A7A;
+$menuActive: #FA7E73;
+$menuBg: #E7D8C1;
 
 html, body, .container, .pusher {
     height: 100%;
@@ -14,11 +22,14 @@ html {
 }
 
 body {
-    background: #333;
+    background: $bodyBgColor;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
 }
 
 .pusher {
-    transform: translateX(-$menuWidth);
+    position: relative;
+    // transform: translateX(-$menuWidth);
     transition: all $menuTransitionDuration linear;
 
     &.pushed {
@@ -28,6 +39,37 @@ body {
 
 .menu {
     width: $menuWidth;
-    background: #fff;
-    height: 100%;
+    background: $menuBg;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    font-size: 1.8rem;
+
+    ul {
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    li {
+        padding-bottom: 1.2rem;
+
+        .fa {
+            margin-right: 0.5rem;
+            color: $menuActive;
+        }
+    }
+
+    a:link, a:visited {
+        color: $menuColor;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    a:hover, a:active, a.selected {
+        color: $menuActive;
+    }
+}
+
+.content {
+    margin-left: $menuWidth;
 }

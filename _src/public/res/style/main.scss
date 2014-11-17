@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 
 @import 'reset';
 @import 'fa/font-awesome';
@@ -8,10 +9,11 @@ $menuWidth: 25rem;
 $menuTransitionDuration: 0.3s;
 
 //Colors
-$bodyBgColor: #FAC273;
-$menuColor: #8C7A7A;
-$menuActive: #FA7E73;
-$menuBg: #E7D8C1;
+$bodyBg: #6C7479;
+$bodyColor: #F9F9F9;
+$menuBg: #F9F9F9;
+$menuColor: #6C7479;
+$menuActiveColor: #FFBD87;
 
 html, body, .container, .pusher {
     height: 100%;
@@ -22,7 +24,8 @@ html {
 }
 
 body {
-    background: $bodyBgColor;
+    background: $bodyBg;
+    color: $bodyColor;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
@@ -55,7 +58,7 @@ body {
 
         .fa {
             margin-right: 0.5rem;
-            color: $menuActive;
+            color: $menuActiveColor;
         }
     }
 
@@ -66,10 +69,19 @@ body {
     }
 
     a:hover, a:active, a.selected {
-        color: $menuActive;
+        color: $menuActiveColor;
     }
 }
 
 .content {
     margin-left: $menuWidth;
+    padding: 2rem;
+}
+
+main {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.4;
+    max-width: 70rem;
 }

@@ -32,11 +32,15 @@ body {
 
 .pusher {
     position: relative;
-    // transform: translateX(-$menuWidth);
-    transition: all $menuTransitionDuration linear;
+    transform: translateX(-$menuWidth);
+    transition: all $menuTransitionDuration ease-in;
+}
 
-    &.pushed {
-        transform: translateX(0);
+.container {
+    &.has-hamburger {
+        .pusher {
+            transform: translateX(0);
+        }
     }
 }
 
@@ -70,6 +74,19 @@ body {
 
     a:hover, a:active, a.selected {
         color: $menuActiveColor;
+    }
+
+    .hamburger {
+        color: $bodyBg;
+        background: $menuBg;
+        position: absolute;
+        top: 1rem;
+        right: -4rem;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        cursor: pointer;
     }
 }
 

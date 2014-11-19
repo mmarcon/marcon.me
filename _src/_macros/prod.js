@@ -4,4 +4,4 @@ module.exports = function(env, variable) {
         return variable;
     }
     return '';
-}
+};

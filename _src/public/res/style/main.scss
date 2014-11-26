@@ -28,12 +28,14 @@ body {
     color: $bodyColor;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    height: 100%;
 }
 
 .pusher {
     position: relative;
     transform: translateX(-$menuWidth);
     transition: all $menuTransitionDuration ease-in;
+    height: 100%;
 }
 
 .container {
@@ -42,6 +44,7 @@ body {
             transform: translateX(0);
         }
     }
+    overflow: hidden;
 }
 
 .menu {
@@ -92,10 +95,13 @@ body {
 
 .content {
     margin-left: $menuWidth;
-    padding: 2rem;
+    height: 100%;
+    overflow: auto;
+    width: 105%;
 }
 
 main {
+    padding: 2rem 2rem 2rem 6rem;
     font-family: 'Roboto Slab', serif;
     font-size: 1.8rem;
     font-weight: 300;

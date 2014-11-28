@@ -31,17 +31,43 @@ body {
     height: 100%;
 }
 
+.content {
+    margin-left: $menuWidth;
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+    z-index: 1;
+}
+
 .pusher {
     position: relative;
     transform: translateX(-$menuWidth);
-    transition: all $menuTransitionDuration ease-in;
+    transition: all $menuTransitionDuration ease-in-out;
     height: 100%;
 }
 
 .container {
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: $menuWidth;
+        right: -$menuWidth;
+        bottom: 0;
+        background-color: #222;
+        opacity: 0;
+        z-index: -1;
+        transition: opacity $menuTransitionDuration ease-in-out;
+        cursor: pointer;
+    }
+
     &.has-hamburger {
         .pusher {
             transform: translateX(0);
+        }
+
+        .overlay {
+            z-index: 1;
+            opacity: 0.8;
         }
     }
     overflow: hidden;
@@ -55,6 +81,7 @@ body {
     left: 0;
     bottom: 0;
     font-size: 1.8rem;
+    z-index: 2;
 
     ul {
         padding: 2rem 2rem 0 2rem;
@@ -90,14 +117,8 @@ body {
         line-height: 4rem;
         text-align: center;
         cursor: pointer;
+        z-index: 3;
     }
-}
-
-.content {
-    margin-left: $menuWidth;
-    height: 100%;
-    overflow: auto;
-    width: 100%;
 }
 
 main {

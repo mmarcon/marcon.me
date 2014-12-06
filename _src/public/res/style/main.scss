@@ -6,7 +6,7 @@
 
 //Variables
 $menuWidth: 25rem;
-$menuTransitionDuration: 0.3s;
+$menuTransitionDuration: 0.4s;
 
 //Colors
 $bodyBg: #6C7479;
@@ -56,7 +56,7 @@ body {
         background-color: #222;
         opacity: 0;
         z-index: -1;
-        transition: opacity $menuTransitionDuration ease-in-out;
+        transition: all $menuTransitionDuration ease-in-out;
         cursor: pointer;
     }
 

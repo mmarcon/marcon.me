@@ -1,4 +1,8 @@
 {
+    "tagline": {
+        "title": "I'm Max.",
+        "subtitle": "I make stuff on the Internets."
+    },
     "resume": {
         "name": "Massimiliano Marcon",
         "tags": [
@@ -7,8 +11,9 @@
             "Creative Coder"
         ],
         "summary": [
-            "Accomplished Software engineer and passionate innovator specializing in **web standards** and **front-end development**, **rapid prototyping**, distributed systems and Service Oriented Architectures. Extensive background in full-cycle of **software development process**, **TDD/BDD** and agile methodologies.",
-            "**Open source developer**, occasional **public speaker**, creative **map maker**."
+            "I am a Software engineer and passionate innovator specializing in **web standards** and **front-end development**, **rapid prototyping**, distributed systems and Service Oriented Architectures.",
+            "I have an extensive background in full-cycle of **software development process**, **TDD/BDD** and agile methodologies.",
+            "I am also an **Open source developer**, occasional **public speaker**, and a creative **map maker**."
         ],
         "interests": [
             "Rapid prototyping, digital maps, location services",

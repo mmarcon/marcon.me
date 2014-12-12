@@ -1,0 +1,114 @@
+html, body, .container, .pusher {
+    height: 100%;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: $bodyBg;
+    color: $bodyColor;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    height: 100%;
+}
+
+.content {
+    margin-left: $menuWidth;
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+    z-index: 1;
+}
+
+.pusher {
+    position: relative;
+    transform: translateX(-$menuWidth);
+    transition: all $menuTransitionDuration ease-in-out;
+    height: 100%;
+}
+
+.container {
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: $menuWidth;
+        right: -$menuWidth;
+        bottom: 0;
+        background-color: #222;
+        opacity: 0;
+        z-index: -1;
+        transition: all $menuTransitionDuration ease-in-out;
+        cursor: pointer;
+    }
+
+    &.has-hamburger {
+        .pusher {
+            transform: translateX(0);
+        }
+
+        .overlay {
+            z-index: 1;
+            opacity: 0.8;
+        }
+    }
+    overflow: hidden;
+}
+
+.menu {
+    width: $menuWidth;
+    background: $menuBg;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    font-size: 1.8rem;
+    z-index: 2;
+
+    ul {
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    li {
+        padding-bottom: 1.2rem;
+
+        .fa {
+            width: 3rem;
+            color: $menuActiveColor;
+        }
+    }
+
+    a:link, a:visited {
+        color: $menuColor;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    a:hover, a:active, a.selected {
+        color: $menuActiveColor;
+    }
+
+    .hamburger {
+        color: $bodyBg;
+        background: $menuBg;
+        position: absolute;
+        top: 1rem;
+        right: -4rem;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        text-align: center;
+        cursor: pointer;
+        z-index: 3;
+    }
+}
+
+main {
+    padding: 1rem 2rem 2rem 6rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.4;
+    max-width: 70rem;
+}

@@ -95,23 +95,43 @@ section {
     }
 
     .show-more {
-        border: 1px solid $contentLinksColor;
+        border: 1px solid $contentStrongColor;
         width: 4rem;
         height: 4rem;
-        line-height: 4rem;
         font-size: 3rem;
         overflow: hidden;
         cursor: pointer;
 
+        &>div {
+            position: relative;
+            transition: transform $menuTransitionDuration ease-in-out;
+        }
+
         .fa {
             width: 4rem;
             height: 4rem;
+            line-height: 4.1rem;
             text-align: center;
+            position: absolute;
+        }
+
+        .more {
+            left: 0;
+        }
+
+        .less {
+            left: -4rem;
         }
     }
 
     aside {
+        p {
+            font-size: 1.8rem;
+        }
         display: none;
+        margin-left: 2rem;
+        padding-left: 2rem;
+        border-left: 1px solid $contentStrongColor;
     }
 
     section.aside {
@@ -120,8 +140,8 @@ section {
         }
 
         .show-more {
-            .more {
-                display: none;
+            &>div {
+                transform: translateX(4rem);
             }
         }
     }

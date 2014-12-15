@@ -29,8 +29,13 @@
         <section id="<%- f.makeId(e.position) %>">
             <h4><%= e.position %> <a href="#<%- f.makeId(e.position) %>" class="fa fa-link"></a></h4>
             <h5><%= e.from %> ➞ <%= e.to === 'NOW' ? 'Present' : e.to %></h5>
+            <h6><span class="location"><i class="fa fa-map-marker"></i> <%= e.location %></span></h6>
             <%- f.md(e.description) %>
             <% if(e.more) { %>
+            <div class="show-more">
+                <a href="#<%- f.makeId(e.position) %>_more" class="fa fa-plus more asider"></a>
+                <a href="#<%- f.makeId(e.position) %>" class="fa fa-minus less asider"></a>
+            </div>
             <aside>
                 <%- f.md(e.more) %>
             </aside>

@@ -68,6 +68,7 @@
                 "from": "August 2014",
                 "to": "NOW",
                 "position": "Solution Architect at HERE",
+                "location": ["Berlin, Germany"],
                 "description": [
                     "Collaborates with external agencies and internal business units to define and evangelize technical guidelines and to ensure that projects are implemented with high quality standards."
                 ]
@@ -76,6 +77,7 @@
                 "from": "September 2013",
                 "to": "July 2014",
                 "position": "Senior engineer and Dev Lead at HERE",
+                "location": ["Berlin, Germany"],
                 "description": [
                     "Full stack software developer, architect, rapid prototyper, android developer and lead engineer."
                 ]
@@ -84,6 +86,7 @@
                 "from": "November 2011",
                 "to": "August 2013",
                 "position": "Senior Engineer at Nokia",
+                "location": ["Berlin, Germany"],
                 "description": [
                     "Full stack software engineer, enthusiastic innovator, research week winner, tech talker, always building the next cool feature for Nokia's location platform [HERE](here.com).",
                     "Often busy with some rapid prototyping to explore new directions for the product, to draft new functionalities or just to challenge the *status quo*."
@@ -98,6 +101,7 @@
             {
                 "from": "April 2008",
                 "to": "November 2011",
+                "location": ["Pensacola, Florida, USA"],
                 "position": "Research Associate, R&D Engineer at IHMC",
                 "description": [
                     "R&D Engineer with expertise in web technologies, distributed systems, Service Oriented Architectures, network protocols and simulations.",
@@ -115,6 +119,7 @@
                 "from": "August 2007",
                 "to": "March 2008",
                 "position": "Student Intern at IHMC",
+                "location": ["Pensacola, Florida, USA"],
                 "description": [
                     "Worked on strategies for service discovery and resources exploitation for Mobile Ad-hoc Networks (MANET) and other peer-to-peer environments. Gained experience with network protocol design and implementation, service discovery techniques and peer-to-peer frameworks with particular focus on MANETs."
                 ]

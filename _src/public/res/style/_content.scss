@@ -59,13 +59,15 @@ section {
         color: $contentStrongColor;
     }
 
+    h6 {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.6rem;
+        color: $contentStrongColor;
+    }
+
     p {
         margin: 1rem 0;
         font-size: 2rem;
-    }
-
-    aside {
-        display: none;
     }
 
     li {
@@ -90,5 +92,37 @@ section {
     a:hover, a:active {
         text-decoration: none;
         color: darken($contentLinksColor, $contentHoverLinksDarken);
+    }
+
+    .show-more {
+        border: 1px solid $contentLinksColor;
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 3rem;
+        overflow: hidden;
+        cursor: pointer;
+
+        .fa {
+            width: 4rem;
+            height: 4rem;
+            text-align: center;
+        }
+    }
+
+    aside {
+        display: none;
+    }
+
+    section.aside {
+        aside {
+            display: block;
+        }
+
+        .show-more {
+            .more {
+                display: none;
+            }
+        }
     }
 }

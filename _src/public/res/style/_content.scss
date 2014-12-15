@@ -128,15 +128,17 @@ section {
         p {
             font-size: 1.8rem;
         }
-        display: none;
+        overflow: hidden;
+        transition: max-height $menuTransitionDuration ease-in-out;
         margin-left: 2rem;
         padding-left: 2rem;
         border-left: 1px solid $contentStrongColor;
+        max-height: 0;
     }
 
     section.aside {
         aside {
-            display: block;
+            max-height: 50rem;
         }
 
         .show-more {

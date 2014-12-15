@@ -65,12 +65,28 @@
         ],
         "experience": [
             {
-                "from": "November 2011",
+                "from": "August 2014",
                 "to": "NOW",
+                "position": "Solution Architect at HERE",
+                "description": [
+                    "Collaborates with external agencies and internal business units to define and evangelize technical guidelines and to ensure that projects are implemented with high quality standards."
+                ]
+            },
+            {
+                "from": "September 2013",
+                "to": "July 2014",
+                "position": "Senior engineer and Dev Lead at HERE",
+                "description": [
+                    "Full stack software developer, architect, rapid prototyper, android developer and lead engineer."
+                ]
+            },
+            {
+                "from": "November 2011",
+                "to": "August 2013",
                 "position": "Senior Engineer at Nokia",
                 "description": [
                     "Full stack software engineer, enthusiastic innovator, research week winner, tech talker, always building the next cool feature for Nokia's location platform [HERE](here.com).",
-                    "Often busy with some rapid prototyping to explore new directions for the product, to draft new functionalities or just to challenge the *status quo*"
+                    "Often busy with some rapid prototyping to explore new directions for the product, to draft new functionalities or just to challenge the *status quo*."
                 ],
                 "more": [
                     "**Rapid prototyping engineer**. Member of a rapid prototyping team that specializes in creating prototypes for future HERE products both for desktop as well as for mobile devices.",

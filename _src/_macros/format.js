@@ -25,9 +25,14 @@ function md(string){
     return marked(string);
 }
 
+function makeId(string){
+    return string.replace(/[^a-zA-Z0-9]/g,'_');
+}
+
 module.exports = {
     multiline: multiline,
     paragraphs: paragraphs,
     list: list,
-    md: md
+    md: md,
+    makeId: makeId
 };

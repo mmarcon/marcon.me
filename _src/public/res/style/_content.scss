@@ -21,6 +21,10 @@ section {
         font-family: 'Raleway', sans-serif;
     }
 
+    em {
+        font-style: italic;
+    }
+
     h3 {
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
@@ -33,6 +37,19 @@ section {
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
         color: $contentStrongColor;
+
+        a.fa-link {
+            font-size: 1.8rem;
+            display: inline-block;
+            opacity: 0;
+            transition: opacity $menuTransitionDuration linear;
+        }
+
+        &:hover {
+            a.fa-link {
+                opacity: 1;
+            }
+        }
     }
 
     h5 {

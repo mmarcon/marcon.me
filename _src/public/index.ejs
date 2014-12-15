@@ -4,10 +4,32 @@
     <h1><%= public._data.tagline.title %></h1>
     <h2><%= public._data.tagline.subtitle %></h2>
 </header>
-<section id="intro">
+<section id="aboutme">
     <h3>About Me</h3>
     <p>
         My name is <%= public._data.resume.name %>.
     </p>
     <%- f.md(public._data.resume.summary) %>
+</section>
+<section id="interests">
+    <h3>Professional Interests</h3>
+    <%- f.list(public._data.resume.interests) %>
+</section>
+<section id="skills">
+    <h3>Technical Skills</h3>
+    <ul>
+    <% public._data.resume.skills.forEach(function(s){ %>
+        <li><strong><%= s.category %></strong> <%=: s.skills | join %></li>
+    <% }) %>
+    </ul>
+</section>
+<section id="experience">
+    <h3>Experience</h3>
+    <% public._data.resume.experience.forEach(function(e){ %>
+        <section>
+            <h4><%= e.position %></h4>
+            <h5><%= e.from %> ➞ <%= e.to === 'NOW' ? 'Present' : e.to %></h5>
+            <%- f.md(e.description) %>
+        </section>
+    <% }) %>
 </section>

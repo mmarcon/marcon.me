@@ -5,7 +5,17 @@ function multiline(array){
 }
 
 function paragraphs(array){
-    return '<p>' + array.map(transform).join('</p><p>') + '</p>';
+    return '<p>' + array.join('</p><p>') + '</p>';
+}
+
+function list(array, ordered){
+    var output = ordered ? '<ol>' : '<ul>';
+    output += '\n';
+    output += '<li>' + array.join('</li>\n<li>') + '</li>';
+    output += '\n';
+    output += ordered ? '</ol>' : '</ul>';
+
+    return output;
 }
 
 function md(string){
@@ -18,5 +28,6 @@ function md(string){
 module.exports = {
     multiline: multiline,
     paragraphs: paragraphs,
+    list: list,
     md: md
 };

@@ -5,6 +5,7 @@
 
     h1 {
         font-size: 16rem;
+        color: $contentHeadersColor;
     }
 
     h2 {
@@ -13,15 +14,59 @@
 }
 
 section {
-    margin-top: 2rem;
+    margin: 2rem 0 6rem 0;
+
+    strong {
+        color: $contentStrongColor;
+        font-family: 'Raleway', sans-serif;
+    }
 
     h3 {
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
         font-size: 4rem;
         color: $contentHeadersColor;
     }
 
+    h4 {
+        font-size: 2.2rem;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        color: $contentStrongColor;
+    }
+
+    h5 {
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        color: $contentStrongColor;
+    }
+
     p {
         margin: 1rem 0;
-        font-size: 1.8rem;
+        font-size: 2rem;
+    }
+
+    li {
+        margin-left: 1rem;
+    }
+
+    li:before {
+        content: "★";
+        position: relative;
+        left: -1rem;
+        top: -0.2rem;
+        font-size: 1.2rem;
+    }
+
+    a:link, a:visited {
+        font-family: 'Raleway', sans-serif;
+        text-decoration: none;
+        color: $contentLinksColor;
+        transition: color $menuTransitionDuration linear;
+    }
+
+    a:hover, a:active {
+        text-decoration: none;
+        color: darken($contentLinksColor, 20%);
     }
 }

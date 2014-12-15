@@ -30,6 +30,11 @@
             <h4><%= e.position %></h4>
             <h5><%= e.from %> ➞ <%= e.to === 'NOW' ? 'Present' : e.to %></h5>
             <%- f.md(e.description) %>
+            <% if(e.more) { %>
+            <aside>
+                <%- f.md(e.more) %>
+            </aside>
+            <% } %>
         </section>
     <% }) %>
 </section>

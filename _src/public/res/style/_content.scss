@@ -46,6 +46,10 @@ section {
         font-size: 2rem;
     }
 
+    aside {
+        display: none;
+    }
+
     li {
         margin-left: 1rem;
     }
@@ -59,7 +63,7 @@ section {
     }
 
     a:link, a:visited {
-        font-family: 'Raleway', sans-serif;
+        // font-family: 'Raleway', sans-serif;
         text-decoration: none;
         color: $contentLinksColor;
         transition: color $menuTransitionDuration linear;
@@ -67,6 +71,6 @@ section {
 
     a:hover, a:active {
         text-decoration: none;
-        color: darken($contentLinksColor, 20%);
+        color: darken($contentLinksColor, $contentHoverLinksDarken);
     }
 }

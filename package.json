@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mmarcon/marcon.me",
   "dependencies": {
-    "marked": "^0.3.2"
+    "marked": "^0.3.2",
+    "harp": "mmarcon/harp"
   }
 }

@@ -116,11 +116,11 @@ section {
         }
 
         .more {
-            left: 0;
+            top: 0;
         }
 
         .less {
-            left: -4rem;
+            top: -4rem;
         }
     }
 
@@ -143,7 +143,7 @@ section {
 
         .show-more {
             &>div {
-                transform: translateX(4rem);
+                transform: translateY(4rem);
             }
         }
     }

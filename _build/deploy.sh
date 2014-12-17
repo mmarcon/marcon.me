@@ -18,6 +18,7 @@ echo "using temp dir ${DIST}"
 
 #Harp build first
 ./node_modules/.bin/harp compile _src $DIST
+
 cd $DIST
 
 #Write version number
@@ -31,9 +32,13 @@ if [ "$1" = "prd" ]; then
     DESTINATION_REPO=$PRD_GIT_REPO
 else
     echo "Using staging"
-    #rewrite stuff a bit if we are going to staging
-    echo stg.`cat CNAME` | tee CNAME
-    echo "Disallow: /" | tee -a robots.txt
+    #rewrite stuff a bit if we are going to stagin
+    echo "--- CNAME ---"
+    echo stg.`cat CNAME` > CNAME
+    cat CNAME
+    echo "--- robots.txt ---"
+    echo "Disallow: /" >> robots.txt
+    cat robots.txt
 fi
 
 git clone -b $BRANCH --single-branch $DESTINATION_REPO "${DIST}.repo"

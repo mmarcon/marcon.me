@@ -5,18 +5,18 @@
     <h2><%= public._data.tagline.subtitle %></h2>
 </header>
 <section id="aboutme">
-    <h3>About Me</h3>
+    <h3><span>About Me</span></h3>
     <p>
         My name is <%= public._data.resume.name %>.
     </p>
     <%- f.md(public._data.resume.summary) %>
 </section>
 <section id="interests">
-    <h3>Professional Interests</h3>
+    <h3><span>Interests</span></h3>
     <%- f.list(public._data.resume.interests) %>
 </section>
 <section id="skills">
-    <h3>Technical Skills</h3>
+    <h3><span>Technical Skills</span></h3>
     <ul>
     <% public._data.resume.skills.forEach(function(s){ %>
         <li><strong><%= s.category %></strong> <%=: s.skills | join %></li>
@@ -24,7 +24,7 @@
     </ul>
 </section>
 <section id="experience">
-    <h3>Experience</h3>
+    <h3><span>Experience</span></h3>
     <% public._data.resume.experience.forEach(function(e){ %>
         <section id="<%- f.makeId(e.position) %>">
             <h4><%= e.position %> <a href="#<%- f.makeId(e.position) %>" class="fa fa-link"></a></h4>

@@ -13,11 +13,11 @@
     }
 }
 
-section, ul {
-    margin: 2rem 0 6rem 0;
-}
-
 section {
+
+    &, ul {
+        margin: 2rem 0 6rem 0;
+    }
 
     strong {
         color: $contentStrongColor;

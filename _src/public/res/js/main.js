@@ -16,7 +16,7 @@
         overlay.classList.add('overlay');
         pusher.appendChild(overlay);
         content.addEventListener('click', function(e){
-            var target = e.target,
+            var target = e.target.tagName === 'SPAN' ? e.target.parentNode : e.target,
                 classList = target.classList,
                 classChangeTarget;
             if(classList.contains('asider')){

@@ -48,5 +48,43 @@
         h4 {
             font-size: 1.8rem;
         }
+
+        .show-more {
+            border: none;
+            width: auto;
+            height: auto;
+            font-size: 1.8rem;
+            cursor: pointer;
+            overflow: auto;
+
+            &>div {
+                transition: transform $menuTransitionDuration ease-in-out;
+                height: auto;
+            }
+
+            .fa::before {
+                content: '';
+            }
+
+            .fa {
+                width: auto;
+                height: auto;
+                line-height: 1;
+                text-align: left;
+                position: static;
+            }
+
+            span {
+                display: block;
+            }
+        }
+
+        section.aside {
+            .show-more {
+                &>div {
+                    transform: none;
+                }
+            }
+        }
     }
 }

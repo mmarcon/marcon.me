@@ -126,6 +126,10 @@ section {
         .less {
             top: -4rem;
         }
+
+        span {
+            display: none;
+        }
     }
 
     aside {
@@ -142,7 +146,7 @@ section {
 
     section.aside {
         aside {
-            max-height: 50rem;
+            max-height: 100rem;
         }
 
         .show-more {

@@ -49,42 +49,60 @@
             font-size: 1.8rem;
         }
 
-        .show-more {
-            border: none;
-            width: auto;
-            height: auto;
-            font-size: 1.8rem;
-            cursor: pointer;
-            overflow: auto;
+        // .show-more {
 
-            &>div {
-                transition: transform $menuTransitionDuration ease-in-out;
-                height: auto;
-            }
+        //     width: 3rem;
+        //     height: 3rem;
+        //     font-size: 2.5rem;
 
-            .fa::before {
-                content: '';
-            }
+        //     &>div {
+        //         width: 3rem;
+        //         height: 3rem;
+        //     }
 
-            .fa {
-                width: auto;
-                height: auto;
-                line-height: 1;
-                text-align: left;
-                position: static;
-            }
+        //     .fa {
+        //         width: 3rem;
+        //         height: 3rem;
+        //         line-height: 3.2rem;
+        //     }
+        // }
 
-            span {
-                display: block;
-            }
-        }
+        // .show-more {
+        //     border: none;
+        //     width: auto;
+        //     height: auto;
+        //     font-size: 1.8rem;
+        //     cursor: pointer;
+        //     overflow: auto;
 
-        section.aside {
-            .show-more {
-                &>div {
-                    transform: none;
-                }
-            }
-        }
+        //     &>div {
+        //         transition: transform $menuTransitionDuration ease-in-out;
+        //         height: auto;
+        //     }
+
+        //     .fa::before {
+        //         content: '';
+        //     }
+
+        //     .fa {
+        //         width: auto;
+        //         height: auto;
+        //         line-height: 1;
+        //         text-align: left;
+        //         position: static;
+        //     }
+
+        //     span {
+        //         display: block;
+        //     }
+        // }
+
+        // section.aside {
+        //     .show-more {
+        //         &>div {
+        //             transform: none;
+        //         }
+        //     }
+        // }
     }
 }

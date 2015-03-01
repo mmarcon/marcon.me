@@ -45,3 +45,24 @@
         </section>
     <% }) %>
 </section>
+<section id="education">
+    <h3><span>Education</span></h3>
+    <% public._data.resume.education.forEach(function(e){ %>
+        <section id="<%- f.makeId(e.degree) %>">
+            <h4><%= e.degree %> <a href="#<%- f.makeId(e.degree) %>" class="fa fa-link"></a></h4>
+            <h5><%= e.from %> ➞ <%= e.to === 'NOW' ? 'Present' : e.to %></h5>
+            <h6><span class="location"><i class="fa fa-map-marker"></i> <%= e.location %></span></h6>
+            <%- f.md('**Thesis:** ' + e.thesis) %>
+        </section>
+    <% }) %>
+</section>
+<section id="publications">
+    <h3><span>Publications</span></h3>
+    <ul>
+    <% public._data.resume.publications.forEach(function(p){ %>
+        <li class="publication">
+            <%- p.authors.join(', ').replace(/(Marcon, Massimiliano)/, '<strong>$1</strong>') %>, <strong class="publication-title">"<%= p.title %>"</strong>, <%= p.conference %>
+        </li>
+    <% }) %>
+    </ul>
+</section>

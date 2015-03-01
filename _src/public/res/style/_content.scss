@@ -78,12 +78,24 @@ section {
         margin-left: 1rem;
     }
 
-    li:before {
+    li::before {
         content: "★";
         position: relative;
         left: -1rem;
         top: -0.2rem;
         font-size: 1.2rem;
+    }
+
+    li.publication {
+        font-size: 1.8rem;
+    }
+
+    li.publication::before {
+        content: "\0BB \020";
+        position: relative;
+        left: -10px;
+        top: -2px;
+        font-size: 1.5rem;
     }
 
     a:link, a:visited {
@@ -102,6 +114,7 @@ section {
         border: 1px solid $contentStrongColor;
         width: 4rem;
         height: 4rem;
+        border-radius: 50%;
         font-size: 3rem;
         overflow: hidden;
         cursor: pointer;
@@ -114,7 +127,7 @@ section {
         .fa {
             width: 4rem;
             height: 4rem;
-            line-height: 4.1rem;
+            line-height: 4.2rem;
             text-align: center;
             position: absolute;
         }
@@ -138,7 +151,7 @@ section {
         }
         overflow: hidden;
         transition: max-height $menuTransitionDuration ease-in-out;
-        margin-left: 2rem;
+        margin: 0.5rem 0 0 2rem;
         padding-left: 2rem;
         border-left: 1px solid $contentStrongColor;
         max-height: 0;

@@ -129,13 +129,15 @@
             {
                 "from": "September 2005",
                 "to": "March 2008",
-                "degree": "MS in Computer Science and Engineering at Universit&agrave; di Ferrara",
+                "location": "Ferrara, Italy",
+                "degree": "MS in Computer Science and Engineering at Università di Ferrara",
                 "thesis": "Resource Exploitation and Service Discovery Capabilities for MANET Environments"
             },
             {
                 "from": "October 2001",
                 "to": "September 2005",
-                "degree": "BS in Computer Science and Engineering at Universit&agrave; degli Studi di Padova",
+                "location": "Padova, Italy",
+                "degree": "BS in Computer Science and Engineering at Università degli Studi di Padova",
                 "thesis": "Debitor Idoneus: Web-based Information System to Identify Persons and Corporations that become bankrupted"
             }
         ],
@@ -155,7 +157,7 @@
                 "authors": [
                     "Ca&ntilde;as, A.",
                     "Carff, R.",
-                    "Marcon Massimiliano"
+                    "Marcon, Massimiliano"
                 ],
                 "conference": "CMC 2012"
             },
@@ -163,7 +165,7 @@
                 "title": "Extending Net‐Centricity to Coalition Operations",
                 "authors": [
                     "Suri, N.",
-                    "Marcon Massimiliano",
+                    "Marcon, Massimiliano",
                     "Uszok, A.",
                     "Breedy, M.",
                     "Bradshaw, J.M.",
@@ -188,7 +190,7 @@
                     "Breedy, M.",
                     "Choy, S.",
                     "Kovach, J.",
-                    "Marcon Massimiliano",
+                    "Marcon, Massimiliano",
                     "Quitadamo, R.",
                     "Rebeschini, M.",
                     "Tokarcik, L.",
@@ -205,7 +207,7 @@
                     "Sinclair, A.",
                     "Carvalho, M.",
                     "Bunch, L.",
-                    "Marcon Massimiliano",
+                    "Marcon, Massimiliano",
                     "Martignoni, A."
                 ],
                 "conference": "MILCOM 2009"
@@ -220,7 +222,7 @@
                     "Carvalho, M.",
                     "Hanna, J.",
                     "Hutcheson, T.",
-                    "Marcon Massimiliano",
+                    "Marcon, Massimiliano",
                     "Sinclair, A."
 
                 ],
@@ -230,7 +232,7 @@
                 "title": "An Adaptive and Efficient Peer-To-Peer Service-Oriented Architecture for Manet Environments With Agile Computing",
                 "authors": [
                     "Suri, N.",
-                    "Marcon Massimiliano",
+                    "Marcon, Massimiliano",
                     "Quitadamo, R.",
                     "Rebeschini, M.",
                     "Arguedas, M.",

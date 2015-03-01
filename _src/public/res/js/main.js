@@ -22,12 +22,7 @@
             if(classList.contains('asider')){
                 e.preventDefault();
                 classChangeTarget = target.parentNode.parentNode.parentNode;
-                [].slice.call(d.querySelectorAll('.aside')).forEach(function(e){
-                    e.classList.remove('aside');
-                });
-                if(classList.contains('more')) {
-                    classChangeTarget.classList.add('aside');
-                }
+                classChangeTarget.classList.toggle('aside');
             }
         }, false);
     }

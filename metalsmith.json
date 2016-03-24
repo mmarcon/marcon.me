@@ -1,0 +1,23 @@
+
+{
+  "metadata": {
+    "title": "Massimiliano Marcon",
+    "description": "Creative cloud guy"
+  },
+  "plugins": {
+    "metalsmith-markdown": {},
+    "metalsmith-collections": {
+      "projects": {
+        "sortBy": "date",
+        "reverse": true
+      }
+    },
+    "metalsmith-layouts": {
+      "engine": "ejs"
+    },
+    "metalsmith-assets": {
+      "source": "./assets",
+      "destination": "./assets"
+    }
+  }
+}

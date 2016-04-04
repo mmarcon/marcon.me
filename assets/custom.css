@@ -1,5 +1,8 @@
+main {
+    padding-top: 50px;
+}
+
 ul.projects {
-    margin-top: 20px;
     margin-bottom: 10px;
     padding: 0;
 }
@@ -15,7 +18,42 @@ li.project .wrapper {
     background-position: 50% 50%;
     display: block;
     text-decoration: none;
-    border: 1px solid #eee;
+    position: relative;
+}
+
+li.project .wrapper::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    background: rgba(17,17,17,0.9);
+    content: "";
+    display: block;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+li.project .wrapper:hover::before, li.project .wrapper:active::before {
+    opacity: 1;
+}
+
+.inner {
+    position: relative;
+    z-index: 1;
+}
+
+li.project p {
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    font-weight: 200;
+    padding: 0 8px;
+}
+
+li.project .wrapper:hover p, li.project .wrapper:active p {
+    opacity: 1;
 }
 
 @media (max-width: 767px) {
@@ -25,7 +63,29 @@ li.project .wrapper {
 }
 
 li.project h4 {
-    background: #222;
-    padding: 5px;
+    color: #fff;
+    background: #111;
+    padding: 8px;
     display: inline-block;
+    font-weight: 200;
+}
+
+.jumbotron.project {
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    min-height: 50vh;
+}
+
+.jumbotron.project .container h1, .jumbotron.project .container p {
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #eee;
 }

@@ -3,24 +3,30 @@
 <%- include partials/head.html %>
 <body>
     <%- include partials/nav.html %>
-    <main class="container">
-        <h1><%= title %></h1>
-        <h2><small><%= subtitle %></small></h2>
-        
-        <h3>Projects</h3>
-        <ul class="projects row">
-        <% collections.projects.forEach(p => { %>
-            <li class="project col-sm-4"> 
-                <a href="<%= p.path %>" class="wrapper" style="background-image:url(/assets/images/projects/<%= p.thumb %>)">
-                    <div class="inner">
-                        <h4><%= p.title %></h4>
-                        <p><%= p.subtitle %></p>
-                    </div>
-                </a>
-            </li>
-        <% }) %>
-        </ul>
+    <main>
+        <header class="jumbotron landing">
+                <div class="container">
+                    <h1><%= title %></h1>
+                    <p><%= subtitle %></p>
+                </div>
+        </header>
+        <div class="container">
+            <h3>Projects</h3>
+            <ul class="projects row">
+            <% collections.projects.forEach(p => { %>
+                <li class="project col-sm-4"> 
+                    <a href="<%= p.path %>" class="wrapper" style="background-image:url(/assets/images/projects/<%= p.thumb %>)">
+                        <div class="inner">
+                            <h4><%= p.title %></h4>
+                            <p><%= p.subtitle %></p>
+                        </div>
+                    </a>
+                </li>
+            <% }) %>
+            </ul>
+        </div>
     </main>
+    <%- include partials/footer.html %>
     <%- include partials/end_body.html %>
 </body>
 </html>

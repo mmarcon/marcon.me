@@ -77,6 +77,10 @@ li.project h4 {
     min-height: 50vh;
 }
 
+.jumbotron.landing {
+    background: #fff;
+}
+
 .jumbotron.project .container h1, .jumbotron.project .container p {
     color: #fff;
 }
@@ -86,6 +90,29 @@ li.project h4 {
     border-radius: 0;
 }
 
+.navbar-default {
+    background-color: #fff;
+}
+
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #eee;
+    background-color: #fff;
+}
+
+footer {
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+}
+
+footer ul {
+    padding: 15px 0;
+}
+
+footer .copyright {
+    padding: 15px;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 15px;
+    
 }

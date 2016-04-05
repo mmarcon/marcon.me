@@ -15,45 +15,106 @@ as a way to test feasibility and assumptions and to estimate projects.
 
 ### Skills
 
-<div class="row">
+<div class="row skills">
     <div class="col-md-3">
         <h4>Programming/Scripting</h4>
-        <ul>
-            <li>JavaScript/Node.js</li>
-            <li>Java/Android</li>
-            <li>Bash</li>
-            <li>Go</li>
-            <li>PHP</li>
-            <li>Objective-C</li>
-        </ul>
+        <p>
+            JavaScript/Node.js,
+            Java/Android,
+            Bash,
+            Go,
+            PHP,
+            Objective-C
+        </p>
     </div>
     <div class="col-md-3">
         <h4>Web</h4>
-        <ul>
-            <li>HTML5</li>
-            <li>CSS</li>
-        </ul>
+        <p>
+            HTML5,
+            CSS,
+            Less,
+            Sass
+        </p>
     </div>
     <div class="col-md-3">
         <h4>Database/DBMS</h4>
-        <ul>
-            <li>SQL</li>
-            <li>MySQL</li>
-            <li>PostgreSQL</li>
-            <li>MongoDB</li>
-            <li>DynamoDB</li>
-        </ul>
+        <p>
+            SQL,
+            MySQL,
+            PostgreSQL,
+            MongoDB,
+            DynamoDB
+        </p>
     </div>
     <div class="col-md-3">
         <h4>Other stuff</h4>
-        <ul>
-            <li>Git</li>
-            <li>SVN</li>
-            <li>CVS</li>
-            <li>Jenkins</li>
-            <li>Ansible</li>
-            <li>Puppet</li>
-            <li>Vagrant</li>
-        </ul>
+        <p>
+            Git,
+            SVN,
+            Jenkins,
+            Ansible,
+            Puppet,
+            Grunt,
+            Gulp,
+            Vagrant
+        </p>
     </div>
 </div>
+
+### Experience
+
+#### Engineering Manager Cloud Services at [HERE](https://here.com) <br><small>June 2015 → Present</small>
+
+Maps should not be the same for everyone: with my team I am working on making maps smarter and more personal.
+
+I am responsible for driving engineering and product decisions to deliver innovative cloud services to business customers and consumers.
+
+#### Solution Architect at [HERE, a Nokia company](https://here.com) <br><small>August 2014 → June 2015</small>
+
+Key Responsibilities:
+
+ * select technology stacks for HERE web & mobile projects
+ * prototype solutions
+ * hands-on support of implementation projects
+ * lead external and internal development teams 
+ * ensure high quality standards
+ * support external agencies working on HERE web projects
+ * work with internal stakeholders and external partners to define technical approaches and requirements for the different projects.
+ 
+#### Senior engineer, Dev Lead at [HERE, a Nokia company](https://here.com) <br><small>September 2013 → July 2014</small>
+
+Full stack software developer, architect, rapid prototyper, android developer and lead engineer.
+
+#### Senior Engineer at [HERE, a Nokia company](https://here.com) <br><small>November 2011 → August 2013</small>
+
+Full stack software developer, rapid prototyper, Java&JavaScript engineer, webdev, blogger, tech-talker.
+
+#### Research associate at [IHMC](http://ihmc.us) <br><small>May 2008 → November 2011</small>
+
+ * Front-end/UI designer and developer for Cmappers, a web application that encourages 
+socialization and sharing of Concept Maps between users. 
+ * Project leader and software architect for a map-centered web application for the creation of 
+real-world enterprise network simulations to support a research effort in the ﬁeld of intrusion 
+detection and cyber-security.
+ * Lead engineer and front-end developer of “Why we explore space”, a NASA sponsored web 
+application with the objective of spreading knowledge about space exploration missions, the 
+solar systems and the technological innovation related to space exploration through the use 
+of Concept Mapping, audio and video. The application leverages social medias (Twitter and Facebook) to encourage the share of knowledge about these topics. The application has been publicly released by NASA in February 2011: http://www.spaceref.com/news/viewsr.html?pid=39754
+ * iOS developer for a NASA sponsored iPad application that has the objective of presenting all 
+the different aspects of human space exploration to the user through the use of Concept 
+Mapping.
+ * Collaborated on a biologically-inspired framework for supporting security in the tactical 
+environment.
+ * Designed and implemented federation strategies and Quality-of-Service monitoring for 
+tactical information managements systems in collaboration with BBN Technologies, Boeing 
+and the Air Force Research Lab.
+ * Extensive experience with network communication protocols, wireless networks, cross-layer 
+frameworks, service discovery strategies and Service Oriented Architectures.
+ * Coauthored several conference and journal publications.
+ 
+#### Student intern at [IHMC](http://ihmc.us) <br><small>July 2007 → April 2008</small>
+
+Worked on strategies for providing service discovery and resources exploitation capabilities for Mobile Ad-hoc Networks (MANET) and other
+peer-to-peer environments, under the supervision of Dr. Niranjan Suri.
+
+Gained experience with network protocol design and  development, service discovery techniques and peer-to-peer frameworks with particular focus on MANETs.

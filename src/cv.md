@@ -73,13 +73,10 @@ I am responsible for driving engineering and product decisions to deliver innova
 
 Key Responsibilities:
 
- * selecting technology stacks for HERE web & mobile projects
- * prototyping solutions
- * hands-on support of implementation projects
- * leading external and internal development teams 
- * ensuring high quality standards
- * supporting external agencies working on HERE web projects
- * working with internal stakeholders and external partners to define technical approaches and requirements for several projects.
+ * leading external and internal development teams ensuring high quality standards
+ * selecting technology stacks for HERE web & mobile projects and prototyping solutions
+ * working with internal stakeholders and external partners to define technical approaches and requirements for several projects
+ * hands-on support of implementation projects.
  
 #### Senior engineer, Dev Lead at [HERE, a Nokia company](https://here.com) <br><small>September 2013 → July 2014</small>
 

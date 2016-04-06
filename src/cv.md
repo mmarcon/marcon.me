@@ -73,17 +73,20 @@ I am responsible for driving engineering and product decisions to deliver innova
 
 Key Responsibilities:
 
- * select technology stacks for HERE web & mobile projects
- * prototype solutions
+ * selecting technology stacks for HERE web & mobile projects
+ * prototyping solutions
  * hands-on support of implementation projects
- * lead external and internal development teams 
- * ensure high quality standards
- * support external agencies working on HERE web projects
- * work with internal stakeholders and external partners to define technical approaches and requirements for the different projects.
+ * leading external and internal development teams 
+ * ensuring high quality standards
+ * supporting external agencies working on HERE web projects
+ * working with internal stakeholders and external partners to define technical approaches and requirements for several projects.
  
 #### Senior engineer, Dev Lead at [HERE, a Nokia company](https://here.com) <br><small>September 2013 → July 2014</small>
 
 Full stack software developer, architect, rapid prototyper, android developer and lead engineer.
+
+Lead a team of Android engineers that contributed to the first release of [HERE Maps](https://play.google.com/store/apps/details?id=com.here.app.maps).
+Prototyped the first integration of Glympse within HERE Maps and worked with designers and engineers to [make it part of the product](http://360.here.com/2014/10/29/using-glympse-android-need-know/).  
 
 #### Senior Engineer at [HERE, a Nokia company](https://here.com) <br><small>November 2011 → August 2013</small>
 
@@ -99,7 +102,7 @@ detection and cyber-security.
  * Lead engineer and front-end developer of “Why we explore space”, a NASA sponsored web 
 application with the objective of spreading knowledge about space exploration missions, the 
 solar systems and the technological innovation related to space exploration through the use 
-of Concept Mapping, audio and video. The application leverages social medias (Twitter and Facebook) to encourage the share of knowledge about these topics. The application has been publicly released by NASA in February 2011: http://www.spaceref.com/news/viewsr.html?pid=39754
+of Concept Mapping, audio and video. The application leverages social medias (Twitter and Facebook) to encourage the share of knowledge about these topics. The application [has been publicly released by NASA](http://www.spaceref.com/news/viewsr.html?pid=39754) in February 2012.
  * iOS developer for a NASA sponsored iPad application that has the objective of presenting all 
 the different aspects of human space exploration to the user through the use of Concept 
 Mapping.

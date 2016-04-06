@@ -87,6 +87,10 @@ li.project h4 {
     color: #fff;
 }
 
+.cv h4 {
+    margin-top: 20px;
+}
+
 .navbar-default .navbar-toggle {
     border-color: transparent;
     border-radius: 0;

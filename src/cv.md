@@ -83,7 +83,7 @@ Prototyped the first integration of [Glympse](https://glympse.com/) within HERE 
 
 #### Senior Engineer at [HERE, a Nokia company](https://here.com) <br><small>November 2011 → August 2013</small>
 
-Full stack software developer, rapid prototyper, Java&JavaScript engineer, webdev, blogger, tech-talker.
+Full stack software developer, rapid prototyper, Java&JavaScript engineer, webdev, blogger, [conference](http://www.smashingmagazine.com/2012/12/22/talks-to-help-you-become-a-better-front-end-engineer-in-2013/) [speaker](http://deconstructed.jhere.net/).
 
 #### Research associate at [IHMC](http://ihmc.us) <br><small>May 2008 → November 2011</small>
 

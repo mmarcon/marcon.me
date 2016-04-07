@@ -1,13 +1,13 @@
 ---
 layout: cv.html
 title: Massimiliano Marcon
-subtitle: Product-focused engineer, creative coder, makes maps and clouds.
+subtitle: Product-focused engineer, creative coder. Makes maps and clouds.
 ---
 
-Engineering lead with more than 10 years of experience with building
-all sort of things. Very product focused and with the big picture always in mind. Passionate innovator specialized in full-stack development, distributed systems and Service Oriented Architectures, TDD/BDD and agile methodologies.
+I am a software engineer with more than 10 years of experience with building
+all sort of things. I am very product focused: I believe on the importance of reasearching what users want and what others are doing before investing time and money to build new software.
 
-Big supporter of [rapid prototyping](https://en.wikipedia.org/wiki/Software_prototyping) as a way to test feasibility and assumptions.
+I am a big supporter of [rapid prototyping](https://en.wikipedia.org/wiki/Software_prototyping) as a way to test feasibility and assumptions and to estimate projects.
 
 ### Skills
 
@@ -83,7 +83,7 @@ Prototyped the first integration of [Glympse](https://glympse.com/) within HERE 
 
 #### Senior Engineer at [HERE, a Nokia company](https://here.com) <br><small>November 2011 → August 2013</small>
 
-Full stack software developer, rapid prototyper, Java&JavaScript engineer, webdev, blogger, [conference](http://www.smashingmagazine.com/2012/12/22/talks-to-help-you-become-a-better-front-end-engineer-in-2013/) [speaker](http://deconstructed.jhere.net/).
+Full stack software developer, rapid prototyper, Java and JavaScript engineer, webdev, blogger, [conference](http://www.smashingmagazine.com/2012/12/22/talks-to-help-you-become-a-better-front-end-engineer-in-2013/) [speaker](http://deconstructed.jhere.net/).
 
 #### Research associate at [IHMC](http://ihmc.us) <br><small>May 2008 → November 2011</small>
 
@@ -103,3 +103,26 @@ Worked on strategies for providing service discovery and resources exploitation 
 peer-to-peer environments.
 
 Gained experience with network protocol design and  development, service discovery techniques and peer-to-peer frameworks with particular focus on MANETs.
+
+### Education
+
+#### MS in Computer Science and Engineering at Università di Ferrara <br><small>September 2005 ➞ March 2008</small>
+
+**Thesis:** “Resource Exploitation and Service Discovery Capabilities for MANET Environments”.
+
+#### BS in Computer Science and Engineering at Università degli Studi di Padova <br><small>October 2001 ➞ September 2005</small>
+
+### Languages
+
+* Italian: Native Speaker
+* English: Full Professional Proficiency
+
+### Publications
+
+* Cañas, A., Carff, R., Marcon, M., **“Knowledge Model Viewers For The iPad And The Web”**, CMC 2012.
+* Suri, N., Uszok, A., Lenzi, R., Marcon, M., Breedy, M., Bradshaw, J.M., Fu, Y., Hanna, J., Combs, V., Sinclair, A., Grant, R., Hillman, R., **“Extending Net‐Centricity to Coalition Operations”**, KSCO 2010.
+* Suri, N., Marcon, M., Uszok, A., Breedy, M., Bradshaw, J.M., Carvalho, M., Hanna, J., Hilman, R., Combs, V., Sinclair, A., **“A Dynamic and Policy-Controlled Approach to Federating Information Systems”**, MILCOM 2010.
+* Suri, N., Carvalho, M., Ansaloni, D., Arguedas, M., Benincasa, G., Benvegnù, E., Bradshaw, J.M., Breedy, M., Choy, S., Kovach, J., Marcon, M., Quitadamo, R., Rebeschini, M., Tokarcik, L., Tortonesi, M., Winkler, R., **“Agile Computing and Its Applications to Tactical Military Environments”**, Book chapter for “ADVANCED DECISION ARCHITECTURES FOR THE WARFIGHTER: Foundations and Technology”, 2009.
+* Loyall, J., Gillen, M., Sinclair, A., Carvalho, M., Bunch, L., Marcon, M., Martignoni, A., **“Quality of Service in Us Air Force Information Management Systems”**, MILCOM 2009.
+* Suri, N., Uszok, A., Bradshaw, J.M., Breedy, M., Carvalho, M., Hanna, J., Hutcheson, T., Marcon, M., Sinclair, A., **“Supporting Federated Information Spaces With the Joint Battlespace Infosphere (JBI) Platform”**, KSCO 2009.
+* Suri, N., Marcon, M., Quitadamo, R., Rebeschini, M., Arguedas, M., Stabellini, S., Tortonesi, M., Stefanelli, C., **“An Adaptive and Efficient Peer-To-Peer Service-Oriented Architecture for Manet Environments With Agile Computing”**, ACNM 2008.

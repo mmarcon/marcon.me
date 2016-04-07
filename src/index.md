@@ -1,7 +1,7 @@
 ---
 layout: index.html
 title: Massimiliano Marcon
-subtitle: Product-focused engineer, creative coder, makes maps and clouds.
+subtitle: Product-focused engineer, creative coder. Makes maps and clouds.
 ---
 
 I work where engineering meets product. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut leo mattis, varius purus quis, vulputate mi. Nulla orci nunc, vehicula id lorem at, euismod pharetra arcu. Vestibulum bibendum elit nulla, quis laoreet arcu dapibus sed. Maecenas fermentum vel nibh venenatis convallis. Morbi eget purus non nulla consectetur pulvinar vitae sed est. Nulla fringilla, urna at egestas congue, nibh arcu hendrerit nisl, et pharetra nibh mi at quam. Morbi et tellus dolor.

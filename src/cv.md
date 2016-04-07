@@ -4,10 +4,10 @@ title: Massimiliano Marcon
 subtitle: Product-focused engineer, creative coder, makes maps and clouds.
 ---
 
-I am a software engineer with more than 10 years of experience with building
-all sort of things. I am very product focused: I believe on the importance of reasearching what users want and what others are doing before investing time and money to build new software.
+Engineering lead with more than 10 years of experience with building
+all sort of things. Very product focused and with the big picture always in mind. Passionate innovator specialized in full-stack development, distributed systems and Service Oriented Architectures, TDD/BDD and agile methodologies.
 
-I am a big supporter of [rapid prototyping](https://en.wikipedia.org/wiki/Software_prototyping) as a way to test feasibility and assumptions and to estimate projects.
+Big supporter of [rapid prototyping](https://en.wikipedia.org/wiki/Software_prototyping) as a way to test feasibility and assumptions.
 
 ### Skills
 

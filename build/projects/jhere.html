@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jHERE | Massimiliano Marcon</title>
+    <meta name="description" content="Maps made easy">
+    <link rel="stylesheet" href="/assets/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/custom.css" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/assets/favicon.png">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <a class="navbar-brand topnav" href="/"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="cv.html">CV</a>
+                    </li>
+                    <li>
+                        <a href="mailto:hello@marcon.me">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <main class="project">
+        <header class="jumbotron" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/assets/images/projects/jhere.jpg)">
+            <div class="container">
+                <h1>jHERE</h1>
+                <p>Maps made easy</p>
+            </div>
+        </header>
+        <div class="container">
+            <h4 class="date">May 2013</h4>
+            <p>Maps are cool, but map APIs are complicated. <a href="http://jhere.net">jHERE</a> solves this problem by offering a simple but powerful map API in the form of a jQuery plugin.</p>
+<p>With jHERE, you can easily add interactive maps to your website. In only 5KB (2KB Gzipped), you get a powerful map API, highly customizable markers, event handling and info bubbles. Bonus features are KML support and data visualization via heatmaps.</p>
+<p>jHERE is built on top of the awesome and very solid HERE Maps API. For advanced users, the native API is exposed by jHERE, thus offering unlimited possibilities of customization.</p>
+<h3 id="extensions">Extensions</h3>
+<p>In order to keep jHERE as small as possible, the plugin contains only a subset of all the functionalities that are available via the HERE Maps API.</p>
+<p>Everything else is available via extensions. <a href="https://github.com/mmarcon/jhere/blob/master/EXTENSIONS.md">Several extensions</a> are already available on Github.</p>
+<p>Geocoding, routing, shapes are just a few examples of what can be done with extensions.</p>
+<h3 id="read-more">Read more</h3>
+<ul>
+<li><a href="http://jhere.net">jhere.net</a> is the first source of information and documentation about jHERE;</li>
+<li><a href="http://beta.jhere.net">beta.jhere.net</a> is the new website I am working on, where it is possible to download the beta version of the next version of jHERE (jQuery free);</li>
+<li>jHERE is open source, <a href="https://github.com/mmarcon/jhere">all the code is available on Github</a>;</li>
+<li>In 2013 I did a presentation about jHERE and how it was built at <a href="http://jsday.it">jsday</a>. The essential parts of the presentation and the slide deck are available at <a href="http://deconstructed.jhere.net/">deconstructed.jhere.net</a>.</li>
+</ul>
+
+        </div>
+    </main>
+    <footer>
+    <div class="container">
+        <div class="row">
+        <ul class="col-md-10">
+            <li><a href="https://github.com/mmarcon">Github</a></li>
+            <li><a href="https://twitter.com/mmarcon">Twitter</a></li>
+            <li><a href="https://linkedin.com/in/massimilianomarcon">LinkedIn</a></li>
+        </ul>
+        <p class="col-md-2 copyright"><small>&copy; 2016 Massimiliano Marcon</small></p>
+        </div>
+    </div>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script>
+    $(function(){ 
+        var navMain = $('.navbar-collapse');
+        navMain.on('click', 'a', null, function() {
+            navMain.collapse('hide');
+        });
+    });
+</script>
+</body>
+</html>

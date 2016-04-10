@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Massimiliano Marcon </title>
+    <meta name="description" content="Product-focused engineer, creative coder. Makes maps and clouds.">
+    <link rel="stylesheet" href="/assets/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/custom.css" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,200,600' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/assets/favicon.png">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="cv.html">CV</a>
+                    </li>
+                    <li>
+                        <a href="mailto:hello@marcon.me">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+    <main class="landing">
+        <header class="jumbotron">
+                <div class="container">
+                    <h1>Massimiliano Marcon</h1>
+                    <p>Product-focused engineer, creative coder. Makes maps and clouds.</p>
+                </div>
+        </header>
+        <div class="container abstract">
+            <p class="lead">I work where engineering meets product. I specialize in prototyping and productizing solutions that create value for users and customers. I currently work at <a href="https://here.com">HERE</a>, where I lead an engineering team that builds cloud services to make maps <a href="http://360.here.com/2016/01/20/introducing-third-party-content-make-personal/">smarter and more personal</a>.</p>
+<p>In my role I am both a technology expert as well as a product consultant. <em>What is the minimum we need to build to ship this product?</em> <em>With the technology stack we have, what products can we build? What are others doing in the same space?</em>. These are all questions I spend my time researching and answering.</p>
+<p>Take a look at <a href="cv.html">my CV</a> if you want to read more about what I do, browse through some of my projects to see what I have been up to lately or if you are interested in how I code visit <a href="https://github.com/mmarcon">my Github profile</a>.</p>
+
+        </div>
+        <div class="container">
+            <h2>Latest projects</h2>
+            <ul class="projects row">
+            
+                <li class="project col-sm-4"> 
+                    <a href="projects/map-rendering.html" class="wrapper" style="background-image:url(/assets/images/projects/florida-thumb.png)">
+                        <div class="inner">
+                            <h4>Map Rendering</h4>
+                            <p>Experiments with OpenStreetMap data and different ways of rendering maps.</p>
+                        </div>
+                    </a>
+                </li>
+            
+                <li class="project col-sm-4"> 
+                    <a href="projects/travel-diary.html" class="wrapper" style="background-image:url(/assets/images/projects/travel-diary-thumb.jpg)">
+                        <div class="inner">
+                            <h4>A Travel Diary App</h4>
+                            <p>I played with the idea of creating an auto-checkin functionality by connecting together services and APIs that are publicly and freely available on the Internet with very little coding.<br>Built with IFTTT, Mailgun and Contentful.</p>
+                        </div>
+                    </a>
+                </li>
+            
+                <li class="project col-sm-4"> 
+                    <a href="projects/grunt-alert.html" class="wrapper" style="background-image:url(/assets/images/projects/grunt-alert-thumb.png)">
+                        <div class="inner">
+                            <h4>Grunt Alert</h4>
+                            <p>Sends alerts about failing builds using Slack, Hipchat or SMS.</p>
+                        </div>
+                    </a>
+                </li>
+            
+                <li class="project col-sm-4"> 
+                    <a href="projects/jhere.html" class="wrapper" style="background-image:url(/assets/images/projects/jhere-thumb.jpg)">
+                        <div class="inner">
+                            <h4>jHERE</h4>
+                            <p>Maps made easy</p>
+                        </div>
+                    </a>
+                </li>
+            
+            </ul>
+        </div>
+    </main>
+    <footer>
+    <div class="container">
+        <div class="row">
+        <ul class="col-md-10">
+            <li><a href="https://github.com/mmarcon">Github</a></li>
+            <li><a href="https://twitter.com/mmarcon">Twitter</a></li>
+            <li><a href="https://linkedin.com/in/massimilianomarcon">LinkedIn</a></li>
+        </ul>
+        <p class="col-md-2 copyright"><small>&copy; 2016 Massimiliano Marcon</small></p>
+        </div>
+    </div>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script>
+    $(function(){ 
+        var navMain = $('.navbar-collapse');
+        navMain.on('click', 'a', null, function() {
+            navMain.collapse('hide');
+        });
+    });
+</script>
+</body>
+</html>

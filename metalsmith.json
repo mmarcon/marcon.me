@@ -1,8 +1,7 @@
 
 {
   "metadata": {
-    "title": "Massimiliano Marcon",
-    "description": "Creative cloud guy"
+    "site": "Massimiliano Marcon"
   },
   "plugins": {
     "metalsmith-markdown": {},

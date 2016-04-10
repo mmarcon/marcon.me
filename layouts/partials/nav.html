@@ -8,7 +8,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!--<a class="navbar-brand topnav" href="#"><img alt="upbot" src="img/upbot-full.svg" width="30" height="30"/></a>-->
+                <% if(!home) {%>
+                <a class="navbar-brand topnav" href="/"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <% }%>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

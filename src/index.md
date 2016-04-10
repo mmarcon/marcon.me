@@ -4,6 +4,8 @@ title: Massimiliano Marcon
 subtitle: Product-focused engineer, creative coder. Makes maps and clouds.
 ---
 
-I work where engineering meets product. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut leo mattis, varius purus quis, vulputate mi. Nulla orci nunc, vehicula id lorem at, euismod pharetra arcu. Vestibulum bibendum elit nulla, quis laoreet arcu dapibus sed. Maecenas fermentum vel nibh venenatis convallis. Morbi eget purus non nulla consectetur pulvinar vitae sed est. Nulla fringilla, urna at egestas congue, nibh arcu hendrerit nisl, et pharetra nibh mi at quam. Morbi et tellus dolor.
+I work where engineering meets product. I specialize in prototyping and productizing solutions that create value for users and customers. I currently work at [HERE](https://here.com), where I lead an engineering team that builds cloud services to make maps [smarter and more personal](http://360.here.com/2016/01/20/introducing-third-party-content-make-personal/).
 
-Duis ultricies odio vitae est placerat sollicitudin. Vestibulum dignissim viverra urna in facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer faucibus viverra accumsan. Cras interdum felis at varius facilisis. Cras pellentesque leo in turpis sagittis, sed consectetur enim condimentum. Aenean non tempus arcu, nec venenatis nunc. In consequat velit eget mauris aliquam luctus ut vitae justo.
+In my role I am both a technology expert as well as a product consultant. *What is the minimum we need to build to ship this product?* *With the technology stack we have, what products can we build? What are others doing in the same space?*. These are all questions I spend my time researching and answering.
+
+Take a look at [my CV](cv.html) if you want to read more about what I do, browse through some of my projects to see what I have been up to lately or if you are interested in how I code visit [my Github profile](https://github.com/mmarcon).

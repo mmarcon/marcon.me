@@ -77,7 +77,7 @@ Selecting technology stacks for HERE web & mobile projects and prototyping solut
 
 Full stack software developer, architect, rapid prototyper, android developer and lead engineer.
 
-Lead a team of Android engineers that contributed to the first release of [HERE Maps](https://play.google.com/store/apps/details?id=com.here.app.maps).
+Led a team of Android engineers that contributed to the first release of [HERE Maps](https://play.google.com/store/apps/details?id=com.here.app.maps).
 
 Prototyped the first integration of [Glympse](https://glympse.com/) within HERE Maps and worked with designers and engineers to [make it part of the product](http://360.here.com/2014/10/29/using-glympse-android-need-know/).  
 
@@ -105,6 +105,17 @@ peer-to-peer environments.
 Gained experience with network protocol design and  development, service discovery techniques and peer-to-peer frameworks with particular focus on MANETs.
 
 ### Education
+
+#### Courses
+
+##### **Usable Security (Coursera - University of Maryland, College Park)**<br><small>November 2014</small>
+
+This course focuses on how to design and build secure systems with a human-centric focus. We will look at basic principles of human-computer interaction, and apply these insights to the design of secure systems with the goal of developing security measures that respect human performance and their goals within a system.
+
+##### **Maps and the Geospatial Revolution (Coursera - The Pennsylvania State University)**<br><small>August 2013</small>
+
+This course is about how advances in geospatial technology and analytical methods have changed how we do everything, and teaches how to make maps and analyze geographic patterns using the latest tools.
+
 
 #### MS in Computer Science and Engineering at Università di Ferrara <br><small>September 2005 ➞ March 2008</small>
 

@@ -3,7 +3,7 @@
 <html lang="en">
 <%- include partials/head.html %>
 <body>
-    <%- include partials/nav.html %>
+    <%- include('partials/nav.html', {home: false}) %>
     <main class="project">
         <header class="jumbotron" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/assets/images/projects/<%= image %>)">
             <div class="container">
@@ -13,7 +13,7 @@
         </header>
         <div class="container">
             <h4 class="date"><%= `${MONTHS[date.getMonth()]} ${date.getFullYear()}` %></h4>
-            <%- contents %>
+            <%- contents.replace(/\$\{images\}/g, '/assets/images/projects') %>
         </div>
     </main>
     <%- include partials/footer.html %>

@@ -2,7 +2,7 @@
 <html lang="en">
 <%- include partials/head.html %>
 <body>
-    <%- include partials/nav.html %>
+    <%- include('partials/nav.html', {home: true}) %>
     <main class="landing">
         <header class="jumbotron">
                 <div class="container">
@@ -14,7 +14,7 @@
             <%- contents.replace('<p>', '<p class="lead">') %>
         </div>
         <div class="container">
-            <h2>Projects</h2>
+            <h2>Latest projects</h2>
             <ul class="projects row">
             <% collections.projects.forEach(p => { %>
                 <li class="project col-sm-4"> 

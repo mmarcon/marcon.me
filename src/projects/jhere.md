@@ -3,72 +3,28 @@ layout: project.html
 title: jHERE
 subtitle: Maps made easy
 collection: projects 
-date: 2016-03-23
+date: 2013-05-15
 image: jhere.jpg
 thumb: jhere-thumb.jpg
 ---
 
-## Suos patris
+Maps are cool, but map APIs are complicated. [jHERE](http://jhere.net) solves this problem by offering a simple but powerful map API in the form of a jQuery plugin.
 
-### Timeto ferrataque
+With jHERE, you can easily add interactive maps to your website. In only 5KB (2KB Gzipped), you get a powerful map API, highly customizable markers, event handling and info bubbles. Bonus features are KML support and data visualization via heatmaps.
 
-Lorem markdownum orta, est aqua rudibusque munus Ciconum Phoebe: ramos. Idem
-quem tanto fame tardius, ardescit, faciam ait armenta inrita! Antistita in
-Pallas extemplo ignoscite solebam [miserere](http://www.lipsum.com/) inaequalis
-Noctis, post vides, estque ora antris. Vela inposito **Talia** stipite neve huic
-**matris** fontes.
+jHERE is built on top of the awesome and very solid HERE Maps API. For advanced users, the native API is exposed by jHERE, thus offering unlimited possibilities of customization.
 
-> Veteremque vultus pariter, nunc corporibus *ipsa Cimmerios nec*? Ver perque
-> commendat amorem temptata haut: exit altera, et pars invidiae facta, sponte
-> suarum et nomen feruntur. Nunc suique *aethere* Ismariis. Pellis udaeque vocis
-> videbar Iuppiter formosa ibis apicemque lassor inspicitur.
+### Extensions
 
-### Alias preme sit cervis in semper rapuere
+In order to keep jHERE as small as possible, the plugin contains only a subset of all the functionalities that are available via the HERE Maps API.
 
-Capiam Pirithoi concidit ensis; tamen modo parte ad utile adspexere haliaeetus
-adero: famae. Regi in silices sonant: neganda flagrantem ipsis cedere.
+Everything else is available via extensions. [Several extensions](https://github.com/mmarcon/jhere/blob/master/EXTENSIONS.md) are already available on Github.
 
-    sdkCutCtp.wiki += screenshotUgcCommand(4, 3) + dvMacroInfringement * 4 /
-            lossless;
-    if (247279) {
-        template.unicode = program.compileProcessor(hibernateSystemVirus,
-                router);
-    } else {
-        overwriteApacheClick.rdfComputing *= scroll;
-        apple(ole.icio(mount_compact_nybble, gigahertzPower), 2);
-        executable = localhostMarketingAix;
-    }
-    keystrokeCharacter(favicon_hardware_ping(file_file_dsl + mediaTwainSms, bus,
-            codeInHard));
-    if (serviceAlgorithmP(apple, file_ip, bash) != rpcNetiquette / 4) {
-        joystick_ip_digital = pop(arp, retinaMediaXslt) * 36 - 66;
-        optical(2);
-        nosql_matrix(gis, 32, lampPcDirect + abendOle);
-    }
-    cellTShell.viral += push.captcha(opticOnline.chip(-4,
-            mainframe_illegal_protocol), scrapingClientWeb.url(wizardFiberUltra)
-            + memoryDebugger);
+Geocoding, routing, shapes are just a few examples of what can be done with extensions.
 
-Mentem grani longoque dum, in est Qui vidit aethera mactassent calathis ulterius
-ducat. Falcis fuit Graecia bracchia, manibusque deiectuque pietas haud quaerenti
-mugitus sceptra, conplexaque.
+### Read more
 
-### Pulydamanta valent
-
-Esse parere clarus ademptis Epidauria cetera sanguine, volucrem at negat nupta,
-insopitumque. Recusat sed ad felix pariterque pondera geminaque aquae tu et
-auctor et tum, certius. Et ire solitus [gramen](http://seenly.com/); atque nomen
-saligna, illic Argiodus dederant; lurida in ferum Achillem inridens. Quas nomine
-austrum **consiste** pleni aestu nec vulnere amore ego
-[Abantiades](http://reddit.com/r/thathappened), soleant me mersit! Incessere
-flexum animos dixere desideret vestigia aderat neque patiente dantem!
-
-Haec non credensque ebrietas nullo. **Ille mihi**, ultra: uterum fidem **arte
-velamina desine**, sceptrum laesum mihi coepisse, **ova**. Que me volucris
-aequora. Et domum velamina Athamanta, pudibunda, Peneos ordine riguisse et
-saecula. Ficta laqueique sedesque iubemur natum Cinyras cornua carbasa,
-praetentaque delicta tu montibus illius.
-
-Cur saepe tepidum ventis humi, lutea pressa desertae me praedae armis. Bromumque
-spectem draconibus, Iovi Inachides spretis primo cura gemitus; signumque quoque;
-aethera. Pati stipite metu. Noctes et unum nec natamque quales.
+ * [jhere.net](http://jhere.net) is the first source of information and documentation about jHERE;
+ * [beta.jhere.net](http://beta.jhere.net) is the new website I am working on, where it is possible to download the beta version of the next version of jHERE (jQuery free);
+ * jHERE is open source, [all the code is available on Github](https://github.com/mmarcon/jhere);
+ * In 2013 I did a presentation about jHERE and how it was built at [jsday](http://jsday.it). The essential parts of the presentation and the slide deck are available at [deconstructed.jhere.net](http://deconstructed.jhere.net/).

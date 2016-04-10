@@ -2,7 +2,7 @@
 <html lang="en">
 <%- include partials/head.html %>
 <body>
-    <%- include partials/nav.html %>
+    <%- include('partials/nav.html', {home: false}) %>
     <main class="cv">
         <div class="container">
             <h1><%= title %><br><small><%= subtitle %></small></h1>

@@ -110,7 +110,8 @@ Gained experience with network protocol design and  development, service discove
 
 ##### **Usable Security (Coursera - University of Maryland, College Park)**<br><small>November 2014</small>
 
-This course focuses on how to design and build secure systems with a human-centric focus. We will look at basic principles of human-computer interaction, and apply these insights to the design of secure systems with the goal of developing security measures that respect human performance and their goals within a system.
+This course focuses on how to design and build secure systems with a human-centric focus.
+Starting from the basic principles of human-computer interaction, these insights are applied to the design of secure systems with the goal of developing security measures that respect human performance and their goals within a system.
 
 ##### **Maps and the Geospatial Revolution (Coursera - The Pennsylvania State University)**<br><small>August 2013</small>
 

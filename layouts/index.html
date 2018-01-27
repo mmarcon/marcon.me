@@ -13,21 +13,6 @@
         <div class="container abstract">
             <%- contents.replace('<p>', '<p class="lead">') %>
         </div>
-        <div class="container">
-            <h2>Latest projects</h2>
-            <ul class="projects row">
-            <% collections.projects.forEach(p => { %>
-                <li class="project col-sm-4"> 
-                    <a href="<%= p.path %>" class="wrapper" style="background-image:url(/assets/images/projects/<%= p.thumb %>)">
-                        <div class="inner">
-                            <h4><%= p.title %></h4>
-                            <p><%- p.subtitle %></p>
-                        </div>
-                    </a>
-                </li>
-            <% }) %>
-            </ul>
-        </div>
     </main>
     <%- include partials/footer.html %>
     <%- include partials/end_body.html %>

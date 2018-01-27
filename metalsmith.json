@@ -5,12 +5,6 @@
   },
   "plugins": {
     "metalsmith-markdown": {},
-    "metalsmith-collections": {
-      "projects": {
-        "sortBy": "date",
-        "reverse": true
-      }
-    },
     "metalsmith-layouts": {
       "engine": "ejs"
     },

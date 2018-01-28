@@ -7,17 +7,29 @@ main {
     z-index: 1;
 }
 
-.landing .jumbotron {
-    background: #fff;
-    border-bottom: 1px solid #e7e7e7;
+.jumbotron {
+    background: transparent;
+}
+
+.jumbotron .container::after {
+    content: "";
+    width: 10%;
+    display: block;
+    height: 3px;
+    border-bottom: 3px solid #63cdda;
+}
+
+.cv h3, .cv h4, .cv h5 {
+    font-weight: 200;
 }
 
 .cv h4 {
     margin-top: 20px;
+    font-size: 18px;
 }
 
 .navbar .navbar-toggle {
-    border-color: transparent;
+    border-color: #fff;
     border-radius: 0;
 }
 
@@ -32,7 +44,14 @@ main {
 
 footer {
     margin-top: 50px;
-    border-top: 1px solid #e7e7e7;
+}
+
+footer .container::before {
+    content: "";
+    width: 10%;
+    display: block;
+    height: 3px;
+    border-top: 3px solid #63cdda;
 }
 
 footer ul {

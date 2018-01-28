@@ -2,12 +2,16 @@
 <html lang="en">
 <%- include partials/head.html %>
 <body>
-    <%- include('partials/nav.html', {home: false}) %>
+    <%- include('partials/nav.html', {page: 'cv'}) %>
     <main class="cv">
+        <header class="jumbotron">
+            <div class="container">
+                <h1><%= title %></h1>
+                <p><%= subtitle %></p>
+            </div>
+        </header>
         <div class="container">
-            <h1><%= title %><br><small><%= subtitle %></small></h1>
-            <hr>
-            <%- contents %>
+            <%- contents.replace('<p>', '<p class="lead">') %>
         </div>
     </main>
     <%- include partials/footer.html %>

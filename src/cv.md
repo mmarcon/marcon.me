@@ -59,7 +59,9 @@ I am a big supporter of [rapid prototyping](https://en.wikipedia.org/wiki/Softwa
 
 ### Experience
 
-#### Engineering Manager Cloud Services at [HERE](https://here.com) <br><small>June 2015 → Present</small>
+#### Technical Produce Owner Indoor Solutions at [HERE](https://here.com) <br><small>September 2016 → Present</small>
+
+#### Engineering Manager Cloud Services at [HERE](https://here.com) <br><small>June 2015 → September 2016</small>
 
 Leading an engineering team (Node.js, Android and iOS) that is working on [making maps smarter and more personal](http://360.here.com/2016/01/20/introducing-third-party-content-make-personal/).
 
@@ -107,6 +109,14 @@ Gained experience with network protocol design and  development, service discove
 ### Education
 
 #### Courses
+
+##### **Product Management Foundations (Lynda.com)**<br><small>August 2017</small>
+
+Product Management fundamentals course that walks participants through the product life cycle: research, plan, build, release, refine, and retire.
+
+##### **How To Create Products Customers Love (SVPG Workshop with Marty Cagan)**<br><small>June 2017</small>
+
+A workshop designed for product leaders from Technology Product companies that want to dive very deep into the product roles and learn the leading edge practices from Product Discovery, Lean Startups, Lean UX, Agile, Customer Development, Design Thinking, as well as techniques and practices from the very best technology-enabled product companies in the world.
 
 ##### **Usable Security (Coursera - University of Maryland, College Park)**<br><small>November 2014</small>
 

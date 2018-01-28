@@ -5,6 +5,7 @@
   },
   "plugins": {
     "metalsmith-markdown": {},
+    "metalsmith-permalinks": {},
     "metalsmith-layouts": {
       "engine": "ejs"
     },

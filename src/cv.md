@@ -130,12 +130,9 @@ This course is about how advances in geospatial technology and analytical method
 * Italian: Native Speaker
 * English: Full Professional Proficiency
 
-### Publications
+### Patents & Publications
 
-* Cañas, A., Carff, R., Marcon, M., **“Knowledge Model Viewers For The iPad And The Web”**, CMC 2012.
-* Suri, N., Uszok, A., Lenzi, R., Marcon, M., Breedy, M., Bradshaw, J.M., Fu, Y., Hanna, J., Combs, V., Sinclair, A., Grant, R., Hillman, R., **“Extending Net‐Centricity to Coalition Operations”**, KSCO 2010.
-* Suri, N., Marcon, M., Uszok, A., Breedy, M., Bradshaw, J.M., Carvalho, M., Hanna, J., Hilman, R., Combs, V., Sinclair, A., **“A Dynamic and Policy-Controlled Approach to Federating Information Systems”**, MILCOM 2010.
-* Suri, N., Carvalho, M., Ansaloni, D., Arguedas, M., Benincasa, G., Benvegnù, E., Bradshaw, J.M., Breedy, M., Choy, S., Kovach, J., Marcon, M., Quitadamo, R., Rebeschini, M., Tokarcik, L., Tortonesi, M., Winkler, R., **“Agile Computing and Its Applications to Tactical Military Environments”**, Book chapter for “ADVANCED DECISION ARCHITECTURES FOR THE WARFIGHTER: Foundations and Technology”, 2009.
-* Loyall, J., Gillen, M., Sinclair, A., Carvalho, M., Bunch, L., Marcon, M., Martignoni, A., **“Quality of Service in Us Air Force Information Management Systems”**, MILCOM 2009.
-* Suri, N., Uszok, A., Bradshaw, J.M., Breedy, M., Carvalho, M., Hanna, J., Hutcheson, T., Marcon, M., Sinclair, A., **“Supporting Federated Information Spaces With the Joint Battlespace Infosphere (JBI) Platform”**, KSCO 2009.
-* Suri, N., Marcon, M., Quitadamo, R., Rebeschini, M., Arguedas, M., Stabellini, S., Tortonesi, M., Stefanelli, C., **“An Adaptive and Efficient Peer-To-Peer Service-Oriented Architecture for Manet Environments With Agile Computing”**, ACNM 2008.
+* Marcon, M., Madine, S. **“Method and apparatus for providing a targeted map display from a plurality of data sources”** ([US 20170059353 A1](http://www.google.com.pg/patents/US20170059353)), August 2015.
+* Marcon, M., Madine, S., Mrohs, B. **“Method and apparatus for associating physical locations to online entities”** ([US 9710484 B2](https://www.google.ch/patents/US9710484?cl=en)), March 2015, Granted.
+
+For other publications see [here](publications.html).

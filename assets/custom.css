@@ -32,6 +32,10 @@ main {
     border-radius: 0;
 }
 
+.navbar {
+    border-bottom: 1px solid #f1f2f6;
+}
+
 .navbar,
 .navbar .navbar-collapse {
     background-color: #fff;

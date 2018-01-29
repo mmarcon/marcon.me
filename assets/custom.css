@@ -16,16 +16,15 @@ main {
     width: 10%;
     display: block;
     height: 3px;
-    border-bottom: 3px solid #63cdda;
-}
-
-.cv h3, .cv h4, .cv h5 {
-    font-weight: 200;
+    border-bottom: 3px solid #ff6348;
 }
 
 .cv h4 {
-    margin-top: 20px;
-    font-size: 18px;
+    font-size: 1.2rem;
+}
+
+.cv h5 {
+    font-size: 1rem;
 }
 
 .navbar .navbar-toggle {
@@ -51,7 +50,7 @@ footer .container::before {
     width: 10%;
     display: block;
     height: 3px;
-    border-top: 3px solid #63cdda;
+    border-top: 3px solid #ff6348;
 }
 
 footer ul {

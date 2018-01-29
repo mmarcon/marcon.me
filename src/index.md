@@ -1,11 +1,14 @@
 ---
 layout: index.html
 title: Massimiliano Marcon
-subtitle: Product-focused engineer, creative coder. Makes maps and clouds.
+subtitle: Product guy, creative coder. Makes maps and clouds.
+page: home
 ---
 
-I work where engineering meets product. I specialize in prototyping and productizing solutions that create value for users and customers. I currently work at [HERE](https://here.com), where I lead an engineering team that builds cloud services to make maps [smarter and more personal](http://360.here.com/2016/01/20/introducing-third-party-content-make-personal/).
+I work where product meets engineering. I specialize in prototyping and productizing solutions that create value for users and customers. With my team, I craft IoT products at [HERE](https://here.com).
 
-In my role I am both a technology expert as well as a product consultant. *What is the minimum we need to build to ship this product?* *With the technology stack we have, what products can we build? What are others doing in the same space?*. These are all questions I spend my time researching and answering.
+**We transform location services into beautiful user experiences.** We are building a product that makes [future workplaces
+smarter and data-driven](https://360.here.com/bringing-location-technology-to-the-workplace.-call-for-early-adopters), allowing for the effective use and distribution of space, time, and resources.
 
-Take a look at [my CV](cv.html) if you want to read more about what I do, browse through some of my projects to see what I have been up to lately or if you are interested in how I code visit [my Github profile](https://github.com/mmarcon).
+If you want to read more about what I do, have a look at [my CV](cv.html). I am also pretty good at coding, you can see some of the
+things I have built in [my Github profile](https://github.com/mmarcon).

@@ -45,7 +45,7 @@ I am a big supporter of [rapid prototyping](https://en.wikipedia.org/wiki/Softwa
 
 ### Experience
 
-#### Technical Produce Owner Indoor Solutions at [HERE](https://here.com) <br><small>September 2016 → Present</small>
+#### Technical Product Owner Indoor Solutions at [HERE](https://here.com) <br><small>September 2016 → Present</small>
 
 Leading a multidisciplinary team (Android, iOS, web, backend and QA) that works on a product to make the workplace [smarter and data-driven](https://360.here.com/bringing-location-technology-to-the-workplace.-call-for-early-adopters).
 

@@ -6,7 +6,7 @@ page: cv
 ---
 
 I am a product guy with more than 10 years of experience in building and shipping all sort of products.
-I believe in the importance of reasearching what users want and what others are doing before investing time and money to build new software.
+I believe in the importance of researching what users want and what others are doing before investing time and money to build new software.
 
 I am a big supporter of [rapid prototyping](https://en.wikipedia.org/wiki/Software_prototyping) as a way to test feasibility and assumptions and to estimate projects.
 

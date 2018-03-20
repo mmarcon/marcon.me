@@ -53,17 +53,17 @@ Responsible for product discovery and delivery, roadmap management, technology a
 
 #### Engineering Manager Cloud Services at [HERE](https://here.com) <br><small>June 2015 → September 2016</small>
 
-Led an engineering team (Node.js, Android and iOS) that is working on [making maps smarter and more personal](http://360.here.com/2016/01/20/introducing-third-party-content-make-personal/).
+Led an engineering team (Node.js, Android and iOS) that worked on [making maps smarter and more personal](http://360.here.com/2016/01/20/introducing-third-party-content-make-personal/).
 
 Responsible for driving engineering and product decisions to deliver innovative cloud services to business customers and consumers.
 
 #### Solution Architect at [HERE, a Nokia company](https://here.com) <br><small>August 2014 → June 2015</small>
 
-Leading external and internal development teams ensuring high quality standards and working with internal stakeholders and external partners to define technical approaches and requirements for several outsourced projects.
+Led external and internal development teams ensuring high quality standards and worked with internal stakeholders and external partners to define technical approaches and requirements for several outsourced projects.
 
 Hands-on support (build tools, CI setup, etc.) during the implementation of web and mobile applications.
 
-Selecting technology stacks for HERE web & mobile projects and prototyping solutions.
+Responsible for selecting technology stacks for HERE web & mobile projects and for prototyping solutions.
  
 #### Senior engineer, Dev Lead at [HERE, a Nokia company](https://here.com) <br><small>September 2013 → July 2014</small>
 

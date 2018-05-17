@@ -47,7 +47,7 @@ I am a big supporter of [rapid prototyping](https://en.wikipedia.org/wiki/Softwa
 
 #### Technical Product Owner Indoor Solutions at [HERE](https://here.com) <br><small>September 2016 → Present</small>
 
-Leading a multidisciplinary team (Android, iOS, web, backend and QA) that works on a product to make the workplace [smarter and data-driven](https://360.here.com/bringing-location-technology-to-the-workplace.-call-for-early-adopters).
+Leading a multidisciplinary team (Android, iOS, web, backend and QA) that works on an IoT product to make the workplace [smarter and data-driven](https://360.here.com/bringing-location-technology-to-the-workplace.-call-for-early-adopters).
 
 Responsible for product discovery and delivery, roadmap management, technology and product discussions with customers and partners.
 
@@ -132,7 +132,9 @@ This course is about how advances in geospatial technology and analytical method
 
 ### Patents & Publications
 
+* Marcon, M., Madine, S. **“Distributed relative positioning
+”** ([US9955307B1](https://patents.google.com/patent/US9955307B1)), August 2015.
 * Marcon, M., Madine, S. **“Method and apparatus for providing a targeted map display from a plurality of data sources”** ([US 20170059353 A1](http://www.google.com.pg/patents/US20170059353)), August 2015.
-* Marcon, M., Madine, S., Mrohs, B. **“Method and apparatus for associating physical locations to online entities”** ([US 9710484 B2](https://www.google.ch/patents/US9710484?cl=en)), March 2015, Granted.
+* Marcon, M., Madine, S., Mrohs, B. **“Method and apparatus for associating physical locations to online entities”** ([US9710484B2](https://patents.google.com/patent/US9710484B2)), March 2015, Granted.
 
 For other publications see [here](publications.html).

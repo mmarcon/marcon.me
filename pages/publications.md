@@ -1,8 +1,8 @@
 ---
-layout: cv.html
-title: Massimiliano Marcon
-subtitle: Product guy, creative coder. Makes maps and clouds.
-page: publications
+layout: layouts/home.njk
+title: Publications
+templateClass: tmpl-home
+permalink: /publications.html
 ---
 
 ### Publications

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ renderData.title or title or metadata.title }}</title>
+    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+    <link rel="stylesheet" href="{{ '/css/prism-base16-monokai.dark.css' | url }}">
+    <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container topnav">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+
+                    {%- for nav in collections.nav -%}
+                    <li class="nav-item{% if nav.url == page.url %} active{% endif %}"><a class="nav-link" href="{{ nav.url | url }}">{{
+                            nav.data.navtitle }}</a></li>
+                    {%- endfor -%}
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:hello@marcon.me">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <main {% if templateClass %} class="{{ templateClass }}" {% endif %}>
+        {{ content | safe }}
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <ul class="col-md-9">
+                    <li><a href="https://github.com/mmarcon">Github</a></li>
+                    <li><a href="https://twitter.com/mmarcon">Twitter</a></li>
+                    <li><a href="https://linkedin.com/in/massimilianomarcon">LinkedIn</a></li>
+                </ul>
+                <p class="col-md-3 copyright text-right"><small>&copy; 2018 Massimiliano Marcon</small></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Current page: {{ page.url | url }} -->
+</body>
+
+</html>

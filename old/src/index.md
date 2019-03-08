@@ -2,7 +2,7 @@
 layout: index.html
 title: Massimiliano Marcon
 subtitle: Product guy, creative coder. Makes maps and clouds.
-page: home
+page_name: home
 ---
 
 I work where product meets engineering. I specialize in prototyping and productizing solutions that create value for users and customers. With my team, I craft IoT products at [HERE](https://here.com).

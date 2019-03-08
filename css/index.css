@@ -1,0 +1,72 @@
+main {
+    padding-top: 50px;
+}
+
+.inner {
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron {
+    background: transparent;
+}
+
+.jumbotron .container::after {
+    content: "";
+    width: 10%;
+    display: block;
+    height: 3px;
+    border-bottom: 3px solid #ff6348;
+}
+
+.cv h4 {
+    font-size: 1.2rem;
+}
+
+.cv h5 {
+    font-size: 1rem;
+}
+
+.navbar .navbar-toggle {
+    border-color: #fff;
+    border-radius: 0;
+}
+
+.navbar {
+    border-bottom: 1px solid #f1f2f6;
+}
+
+.navbar,
+.navbar .navbar-collapse {
+    background-color: #fff;
+}
+
+.navbar .navbar-toggle:focus,
+.navbar .navbar-toggle:hover {
+    background-color: #fff;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer .container::before {
+    content: "";
+    width: 10%;
+    display: block;
+    height: 3px;
+    border-top: 3px solid #ff6348;
+}
+
+footer ul {
+    padding: 15px 0;
+}
+
+footer .copyright {
+    padding: 15px;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 15px;
+}

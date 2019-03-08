@@ -1,5 +1,17 @@
-main {
-    padding-top: 50px;
+body {
+    font-family: 'Barlow', sans-serif;
+    color: #162227;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 72px;
+    color: #fff;
+}
+
+.tagline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
 }
 
 .inner {
@@ -8,15 +20,8 @@ main {
 }
 
 .jumbotron {
-    background: transparent;
-}
-
-.jumbotron .container::after {
-    content: "";
-    width: 10%;
-    display: block;
-    height: 3px;
-    border-bottom: 3px solid #ff6348;
+    background: #227093;
+    border-radius: 0;
 }
 
 .cv h4 {
@@ -27,23 +32,60 @@ main {
     font-size: 1rem;
 }
 
-.navbar .navbar-toggle {
-    border-color: #fff;
+.navbar .navbar-toggler {
+    border: 3px solid #162227;
     border-radius: 0;
-}
-
-.navbar {
-    border-bottom: 1px solid #f1f2f6;
 }
 
 .navbar,
 .navbar .navbar-collapse {
-    background-color: #fff;
+    background-color: #227093;
 }
 
-.navbar .navbar-toggle:focus,
-.navbar .navbar-toggle:hover {
+/* .navbar .navbar-toggler:focus,
+.navbar .navbar-toggler:hover {
     background-color: #fff;
+} */
+
+.navbar .nav-item {
+    text-transform: uppercase;
+    position: relative;
+}
+
+.navbar .nav-item.active {
+    font-weight: 600;
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item.active::after {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        margin-left: -3px;
+        left: 50%;
+        top: 30px;
+        background-color: #162227;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        border-left: 3px solid #162227;
+        padding-left: 5px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 48px;
+    }
+
+    .tagline {
+        font-size: 24px;
+    }
 }
 
 footer {

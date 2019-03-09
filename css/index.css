@@ -33,7 +33,7 @@ h1 {
 }
 
 .navbar .navbar-toggler {
-    border: 3px solid #162227;
+    border-color: transparent;
     border-radius: 0;
 }
 
@@ -42,10 +42,10 @@ h1 {
     background-color: #227093;
 }
 
-/* .navbar .navbar-toggler:focus,
+.navbar .navbar-toggler:focus,
 .navbar .navbar-toggler:hover {
-    background-color: #fff;
-} */
+    outline: none;
+}
 
 .navbar .nav-item {
     text-transform: uppercase;
@@ -72,9 +72,26 @@ h1 {
 }
 
 @media (max-width: 991.98px) {
-    .navbar-collapse {
-        border-left: 3px solid #162227;
-        padding-left: 5px;
+    /* .navbar {
+        border-left: 5px solid #162227;
+        padding-left: 0px;
+    } */
+
+    .navbar .navbar-collapse {
+        padding-left: 16px;
+    }
+
+    .navbar .nav-item.active::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        margin-top: -3px;
+        left: -10px;
+        top: 50%;
+        background-color: #162227;
     }
 }
 

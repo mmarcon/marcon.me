@@ -4,7 +4,7 @@ title: CV
 tags:
   - nav
 navtitle: CV
-templateClass: tmpl-home
+templateClass: tmpl-cv
 permalink: /cv.html
 ---
 
@@ -105,7 +105,7 @@ Gained experience with network protocol design and  development, service discove
 
 ##### Product Management Foundations (Lynda.com)<br><small>August 2017</small>
 
-Product Management fundamentals course that walks participants through the product life cycle: research, plan, build, release, refine, and retire.<br>
+Product Management fundamentals course that walks participants through the product life cycle: research, plan, build, release, refine, and retire.
 Certificate of completion is available [here](https://www.lynda.com/ViewCertificate/09DB04FB8EAA46BFA1A82F0F68C6D8EE?utm_source=directlink&utm_medium=sharing&utm_campaign=certificate&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B8VzQeZqUR7qpieEM8eth5w%3D%3D).
 
 ##### How To Create Products Customers Love (SVPG Workshop with Marty Cagan)<br><small>June 2017</small>

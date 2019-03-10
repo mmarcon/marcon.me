@@ -3,6 +3,11 @@ body {
     color: #162227;
 }
 
+.navbar-dark .navbar-brand {
+    text-transform: uppercase;
+    color: #fff;
+}
+
 .jumbotron h1 {
     text-transform: uppercase;
     font-size: 72px;
@@ -53,7 +58,19 @@ pre[class*="language-"] {
     margin-top: 50px;
 }
 
-.navbar a {
+.navbar-dark .navbar-nav .nav-link {
+    color: #162227;
+    opacity: 0.6;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:active {
+    color: #162227;
+    opacity: 1;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #162227;
     opacity: 1;
 }
 
@@ -122,7 +139,7 @@ pre[class*="language-"] {
     } */
 
     .navbar .navbar-collapse {
-        padding-left: 16px;
+        padding-left: 14px;
     }
 
     .navbar .nav-item.active::before {

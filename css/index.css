@@ -1,27 +1,35 @@
+/*var(--marcon-me-dark-color)*/
+:root {
+    --marcon-me-accent-color: #227093;
+    --marcon-me-dark-color: #162227;
+    --marcon-me-light-color: #fff;
+    --marcon-me-font: 'Barlow', sans-serif;
+    --marcon-me-tagline-font: 'Playfair Display', serif;
+}
 body {
-    font-family: 'Barlow', sans-serif;
-    color: #162227;
+    font-family: var(--marcon-me-font);
+    color: var(--marcon-me-dark-color);
 }
 
 .navbar-dark .navbar-brand {
     text-transform: uppercase;
-    color: #fff;
+    color: var(--marcon-me-light-color);
 }
 
 .jumbotron h1 {
     text-transform: uppercase;
     font-size: 72px;
-    color: #fff;
+    color: var(--marcon-me-light-color);
 }
 
 a {
-    color: #227093;
-    opacity: 0.7;
+    color: var(--marcon-me-accent-color);
+    opacity: 0.8;
 }
 
 a:hover {
     opacity: 1;
-    color: #227093;
+    color: var(--marcon-me-accent-color);
     transition: opacity 0.5s linear;
 }
 
@@ -30,7 +38,7 @@ pre[class*="language-"] {
 }
 
 .jumbotron .tagline {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--marcon-me-tagline-font);
     font-size: 32px;
 }
 
@@ -40,7 +48,7 @@ pre[class*="language-"] {
 }
 
 .jumbotron {
-    background: #227093;
+    background: var(--marcon-me-accent-color);
     border-radius: 0;
 }
 
@@ -59,18 +67,18 @@ pre[class*="language-"] {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #162227;
+    color: var(--marcon-me-dark-color);
     opacity: 0.6;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:active {
-    color: #162227;
+    color: var(--marcon-me-dark-color);
     opacity: 1;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link {
-    color: #162227;
+    color: var(--marcon-me-dark-color);
     opacity: 1;
 }
 
@@ -81,7 +89,7 @@ pre[class*="language-"] {
 
 .navbar,
 .navbar .navbar-collapse {
-    background-color: #227093;
+    background-color: var(--marcon-me-accent-color);
 }
 
 .navbar .navbar-toggler:focus,
@@ -100,11 +108,11 @@ pre[class*="language-"] {
 
 .badge-primary {
     opacity: 1;
-    background-color: #227093;
+    background-color: var(--marcon-me-accent-color);
 }
 
 .badge-primary[href]:focus, .badge-primary[href]:hover {
-    background-color: #227093;
+    background-color: var(--marcon-me-accent-color);
 }
 
 .tmpl-home .postlist {
@@ -113,8 +121,8 @@ pre[class*="language-"] {
 }
 
 .badge.badge-light {
-    border: 1px solid #162227;
-    color: #162227;
+    border: 1px solid var(--marcon-me-dark-color);
+    color: var(--marcon-me-dark-color);
 }
 
 @media (min-width: 992px) {
@@ -128,13 +136,13 @@ pre[class*="language-"] {
         margin-left: -3px;
         left: 50%;
         top: 30px;
-        background-color: #162227;
+        background-color: var(--marcon-me-dark-color);
     }
 }
 
 @media (max-width: 991.98px) {
     /* .navbar {
-        border-left: 5px solid #162227;
+        border-left: 5px solid var(--marcon-me-dark-color);
         padding-left: 0px;
     } */
 
@@ -152,7 +160,7 @@ pre[class*="language-"] {
         margin-top: -3px;
         left: -10px;
         top: 50%;
-        background-color: #162227;
+        background-color: var(--marcon-me-dark-color);
     }
 }
 
@@ -170,7 +178,7 @@ hr {
     margin-top: 50px;
     width: 10%;
     display: inline-block;
-    border-top: 3px solid #227093;
+    border-top: 3px solid var(--marcon-me-accent-color);
 }
 
 footer {
@@ -182,7 +190,7 @@ footer .container::before {
     width: 10%;
     display: block;
     height: 3px;
-    border-top: 3px solid #227093;
+    border-top: 3px solid var(--marcon-me-accent-color);
 }
 
 footer ul {
@@ -204,20 +212,20 @@ footer li {
     right: 30px;
     bottom: 30px;
     max-width: 375px;
-    background-color: #227093;
+    background-color: var(--marcon-me-accent-color);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 6px 6px rgba(0,0,0,0.25);
     margin-left: 30px;
 }
 #gdpr-cookie-message h4 {
-    color: #162227;
+    color: var(--marcon-me-dark-color);
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 #gdpr-cookie-message h5 {
-    color: #162227;
+    color: var(--marcon-me-dark-color);
     font-size: 15px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -236,7 +244,7 @@ footer li {
     display: inline-block;
 }
 #gdpr-cookie-message a {
-    color: #fff;
+    color: var(--marcon-me-light-color);
     text-decoration: none;
     font-size: 15px;
     padding-bottom: 2px;

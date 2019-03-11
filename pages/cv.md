@@ -46,11 +46,18 @@ I am a big supporter of [rapid prototyping](https://en.wikipedia.org/wiki/Softwa
     </div>
 </div>
 
+<hr>
+
 ### Experience
 
-#### Technical Product Owner Indoor Solutions at [HERE](https://here.com) <br><small>September 2016 → Present</small>
+#### Product Manager, Enterprise Tools at [MongoDB](https://mongodb.com) <br><small>October 2018 → Now</small>
 
-Leading a multidisciplinary team (Android, iOS, web, backend and QA) that works on an IoT product to make the workplace [smarter and data-driven](https://360.here.com/bringing-location-technology-to-the-workplace.-call-for-early-adopters).
+Researching and building [tools](https://www.mongodb.com/products/compass) to make the developer experience with MongoDB easy and enjoyable.
+
+
+#### Technical Product Owner Indoor Solutions at [HERE](https://here.com) <br><small>September 2016 → September 2018</small>
+
+Led a multidisciplinary team (Android, iOS, web, backend and QA) that works on an IoT product to make the workplace [smarter and data-driven](https://360.here.com/bringing-location-technology-to-the-workplace.-call-for-early-adopters).
 
 Responsible for product discovery and delivery, roadmap management, technology and product discussions with customers and partners.
 
@@ -99,6 +106,8 @@ peer-to-peer environments.
 
 Gained experience with network protocol design and  development, service discovery techniques and peer-to-peer frameworks with particular focus on MANETs.
 
+<hr>
+
 ### Education
 
 #### Courses
@@ -128,10 +137,14 @@ This course is about how advances in geospatial technology and analytical method
 
 #### BS in Computer Science and Engineering at Università degli Studi di Padova <br><small>October 2001 ➞ September 2005</small>
 
+<hr>
+
 ### Languages
 
 * Italian: Native Speaker
 * English: Full Professional Proficiency
+
+<hr>
 
 ### Patents & Publications
 

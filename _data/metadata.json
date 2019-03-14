@@ -1,0 +1,16 @@
+{
+  "title": "Massimiliano Marcon | Product Manager",
+  "url": "https://marcon.me/",
+  "description": "Product Manager at MongoDB. I make tools to make developers happy.",
+  "feed": {
+    "subtitle": "Product Manager at MongoDB. I make tools to make developers happy.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "url": "https://marcon.me/feed/feed.xml",
+    "id": "https://marcon.me/"
+  },
+  "author": {
+    "name": "Massimiliano Marcon",
+    "email": "me@marcon.me"
+  }
+}

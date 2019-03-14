@@ -1,27 +1,32 @@
 {
-  "name": "marcon.me",
-  "version": "1.0.0",
-  "description": "marcon.me 2016",
-  "main": "index.js",
+  "name": "eleventy-base-blog",
+  "version": "5.0.0",
+  "description": "A starter repository for a blog web site using the Eleventy static site generator.",
   "scripts": {
-    "build": "metalsmith"
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mmarcon/marcon.me.git"
+    "url": "git://github.com/11ty/eleventy-base-blog.git"
   },
-  "author": "Massimiliano Marcon",
+  "author": {
+    "name": "Zach Leatherman",
+    "email": "zachleatherman@gmail.com",
+    "url": "https://zachleat.com/"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmarcon/marcon.me/issues"
+    "url": "https://github.com/11ty/eleventy-base-blog/issues"
   },
-  "homepage": "https://github.com/mmarcon/marcon.me",
-  "dependencies": {
-    "ejs": "^2.5.7",
-    "metalsmith": "^2.3.0",
-    "metalsmith-assets": "^0.1.0",
-    "metalsmith-layouts": "^1.8.1",
-    "metalsmith-markdown": "^0.2.2",
-    "metalsmith-permalinks": "^0.5.0"
+  "homepage": "https://github.com/11ty/eleventy-base-blog#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1",
+    "@11ty/eleventy-plugin-rss": "^1.0.3",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.0",
+    "luxon": "^1.0.0",
+    "markdown-it": "^8.4.1",
+    "markdown-it-anchor": "^5.0.2"
   }
 }

@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-404
+---
+
+<header class="jumbotron">
+  <div class="container">
+    <h1>404</h1>
+    <p class="tagline">This is weird.<br>How did you get here?</p>
+  </div>
+</header>
+<div class="container abstract">
+{{ content | safe }}
+
+{% if collections.posts.length > 0 %}
+  Go <a href="{{ '/' | url }}">home</a> or read one of my latest articles:<br><br>
+{% set postslist = collections.posts | head(-3) %}
+{% include "postslist.njk" %}
+{% else %}
+Go <a href="{{ '/' | url }}">home</a>.
+{% endif %}
+</div>

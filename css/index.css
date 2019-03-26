@@ -66,6 +66,25 @@ pre[class*="language-"] {
     margin-top: 50px;
 }
 
+.tmpl-post .container {
+    max-width: 720px;
+}
+
+.tmpl-post p,
+.tmpl-post ul,
+.tmpl-post ol {
+    line-height: 1.8;
+    font-size: 110%;
+}
+
+.tmpl-post h2::before {
+    content: '';
+    display: block;
+    margin: 50px 0 20px 0;
+    width: 10%;
+    border-top: 3px solid var(--marcon-me-accent-color);
+}
+
 .navbar-dark .navbar-nav .nav-link {
     color: var(--marcon-me-dark-color);
     opacity: 0.6;

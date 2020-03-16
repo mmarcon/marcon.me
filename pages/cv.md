@@ -148,8 +148,8 @@ This course is about how advances in geospatial technology and analytical method
 
 ### Patents & Publications
 
-* Marcon, M., Madine, S. **“Distributed relative positioning”** ([US9955307B1](https://patents.google.com/patent/US9955307B1)), April 2018.
-* Marcon, M., Madine, S. **“Method and apparatus for providing a targeted map display from a plurality of data sources”** ([US 20170059353 A1](http://www.google.com.pg/patents/US20170059353)), August 2015.
+* Marcon, M., Madine, S. **“Distributed relative positioning”** ([US9955307B1](https://patents.google.com/patent/US9955307B1)), April 2018, Granted.
+* Marcon, M., Madine, S. **“Method and apparatus for providing a targeted map display from a plurality of data sources”** ([US 20170059353 A1](http://www.google.com.pg/patents/US20170059353)), August 2015, Granted.
 * Marcon, M., Madine, S., Mrohs, B. **“Method and apparatus for associating physical locations to online entities”** ([US9710484B2](https://patents.google.com/patent/US9710484B2)), March 2015, Granted.
 
 For other publications see [here](publications.html).

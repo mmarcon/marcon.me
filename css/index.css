@@ -1,10 +1,23 @@
 /*var(--marcon-me-dark-color)*/
+
+/*
+
+$color1: rgba(62, 86, 65, 1);
+$color2: rgba(162, 73, 54, 1);
+$color3: rgba(211, 97, 53, 1);
+$color4: rgba(40, 43, 40, 1);
+$color5: rgba(131, 188, 169, 1);
+
+*/
+
 :root {
-    --marcon-me-accent-color: #227093;
+    --marcon-me-accent-color: #D36135;
     --marcon-me-dark-color: #162227;
     --marcon-me-light-color: #fff;
-    --marcon-me-font: 'Barlow', sans-serif;
-    --marcon-me-tagline-font: 'Playfair Display', serif;
+    --marcon-me-background-color: rgba(40, 43, 40, 1);
+    --marcon-me-font: 'Roboto Mono', monospace;
+    --marcon-me-title-font: 'Roboto Slab', serif;
+    --marcon-me-tagline-color: rgba(162, 73, 54, 1);
 }
 body {
     font-family: var(--marcon-me-font);
@@ -17,9 +30,9 @@ body {
 }
 
 .jumbotron h1 {
-    text-transform: uppercase;
     font-size: 72px;
-    color: var(--marcon-me-light-color);
+    font-family: var(--marcon-me-title-font);
+    font-weight: 400;
 }
 
 a {
@@ -38,8 +51,10 @@ pre[class*="language-"] {
 }
 
 .jumbotron .tagline {
-    font-family: var(--marcon-me-tagline-font);
-    font-size: 32px;
+    color: var(--marcon-me-accent-color);
+    font-family: var(--marcon-me-title-font);
+    font-weight: 500;
+    font-size: 24px;
 }
 
 .inner {
@@ -48,21 +63,34 @@ pre[class*="language-"] {
 }
 
 .jumbotron {
-    background: var(--marcon-me-accent-color);
+    background: var(--marcon-me-light-color);
     border-radius: 0;
 }
 
+.tmpl-cv h3 {
+    font-family: var(--marcon-me-title-font);
+}
+
 .tmpl-cv h4 {
+    font-family: var(--marcon-me-title-font);
     font-size: 1.2rem;
-    font-weight: 600;
 }
 
 .tmpl-cv h5 {
+    font-family: var(--marcon-me-title-font);
     font-size: 1rem;
-    font-weight: 600;
+}
+
+.tmpl-cv section {
+    margin: 2.5rem 0;
+}
+
+p.lead {
+    margin-bottom: 3rem;
 }
 
 .tmpl-post h1 {
+    font-family: var(--marcon-me-title-font);
     margin-top: 50px;
 }
 
@@ -89,7 +117,7 @@ pre[class*="language-"] {
 
 .navbar,
 .navbar .navbar-collapse {
-    background-color: var(--marcon-me-accent-color);
+    background: var(--marcon-me-light-color);
 }
 
 .navbar .navbar-toggler:focus,
@@ -166,11 +194,11 @@ pre[class*="language-"] {
 
 @media (max-width: 575.98px) {
     .jumbotron h1 {
-        font-size: 48px;
+        font-size: 42px;
     }
 
     .jumbotron .tagline {
-        font-size: 24px;
+        font-size: 21px;
     }
 }
 

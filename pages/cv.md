@@ -11,10 +11,9 @@ permalink: /cv.html
 <p class="lead">I am a product guy with more than 10 years of experience in building and shipping all sorts of products.
 I believe in the importance of researching what users want and what others are doing before investing time and money to build new software.</p>
 
-I am a big supporter of [rapid prototyping](https://en.wikipedia.org/wiki/Software_prototyping) as a way to test feasibility and assumptions and to estimate projects.
-
 ### Skills
 
+<section>
 <div class="row skills">
     <div class="col-md-6">
         <h4>Product</h4>
@@ -23,7 +22,7 @@ I am a big supporter of [rapid prototyping](https://en.wikipedia.org/wiki/Softwa
             Product discovery,
             Customer discovery and development,
             Stakeholder management,
-            Team leadership
+            Team leadership.
         </p>
     </div>
     <div class="col-md-6">
@@ -41,19 +40,34 @@ I am a big supporter of [rapid prototyping](https://en.wikipedia.org/wiki/Softwa
             Ansible,
             Grunt,
             Gulp,
-            Docker/Vagrant
+            Docker/Vagrant.
         </p>
     </div>
 </div>
+</section>
 
 <hr>
 
 ### Experience
 
-#### Product Manager, Enterprise Tools at [MongoDB](https://mongodb.com) <br><small>October 2018 → Now</small>
+<section>
 
-Researching and building [tools](https://www.mongodb.com/products/compass) to make the developer experience with MongoDB easy and enjoyable.
+#### Senior Product Manager, Developer Tools at [MongoDB](https://mongodb.com) <br><small>January 2020 → Now</small>
 
+After spending about a year mostly on [MongoDB Compass](https://www.mongodb.com/products/compass) and using product data and other signals from users and customers to learn the pain points people face when they work with MongoDB, we extended our tools portfolio beyond just Compass.
+
+I am responsible for reasearch, roadmap definition and product delivery across the developer tools porfolio, including partnerships that will put MongoDB in front of new audiences.
+
+</section>
+
+<section>
+
+#### Product Manager, Enterprise Tools, Compass at [MongoDB](https://mongodb.com) <br><small>October 2018 → January 2020</small>
+
+Research, build and iterate on [MongoDB Compass](https://www.mongodb.com/products/compass) to make the developer experience with MongoDB easy and enjoyable.
+
+</section>
+<section>
 
 #### Technical Product Owner Indoor Solutions at [HERE](https://here.com) <br><small>September 2016 → September 2018</small>
 
@@ -61,11 +75,17 @@ Led a multidisciplinary team (Android, iOS, web, backend and QA) that works on a
 
 Responsible for product discovery and delivery, roadmap management, technology and product discussions with customers and partners.
 
+</section>
+<section>
+
 #### Engineering Manager Cloud Services at [HERE](https://here.com) <br><small>June 2015 → September 2016</small>
 
 Led an engineering team (Node.js, Android and iOS) that worked on [making maps smarter and more personal](http://360.here.com/2016/01/20/introducing-third-party-content-make-personal/).
 
 Responsible for driving engineering and product decisions to deliver innovative cloud services to business customers and consumers.
+
+</section>
+<section>
 
 #### Solution Architect at [HERE, a Nokia company](https://here.com) <br><small>August 2014 → June 2015</small>
 
@@ -74,7 +94,10 @@ Led external and internal development teams ensuring high quality standards and 
 Hands-on support (build tools, CI setup, etc.) during the implementation of web and mobile applications.
 
 Responsible for selecting technology stacks for HERE web & mobile projects and for prototyping solutions.
- 
+
+</section>
+<section>
+
 #### Senior engineer, Dev Lead at [HERE, a Nokia company](https://here.com) <br><small>September 2013 → July 2014</small>
 
 Full stack software developer, architect, rapid prototyper, android developer and lead engineer.
@@ -83,9 +106,15 @@ Led a team of Android engineers that contributed to the first release of [HERE M
 
 Prototyped the first integration of [Glympse](https://glympse.com/) within HERE Maps and worked with designers and engineers to [make it part of the product](http://360.here.com/2014/10/29/using-glympse-android-need-know/).  
 
+</section>
+<section>
+
 #### Senior Engineer at [HERE, a Nokia company](https://here.com) <br><small>November 2011 → August 2013</small>
 
 Full stack software developer, rapid prototyper, Java and JavaScript engineer, webdev, blogger, [conference](http://www.smashingmagazine.com/2012/12/22/talks-to-help-you-become-a-better-front-end-engineer-in-2013/) [speaker](http://deconstructed.jhere.net/).
+
+</section>
+<section>
 
 #### Research associate at [IHMC](http://ihmc.us) <br><small>May 2008 → November 2011</small>
 
@@ -99,6 +128,9 @@ and the Air Force Research Lab.
 
 Coauthored several conference and journal publications.
  
+</section>
+<section>
+
 #### Student intern at [IHMC](http://ihmc.us) <br><small>July 2007 → April 2008</small>
 
 Worked on strategies for providing service discovery and resources exploitation capabilities for Mobile Ad-hoc Networks (MANET) and other
@@ -106,9 +138,13 @@ peer-to-peer environments.
 
 Gained experience with network protocol design and  development, service discovery techniques and peer-to-peer frameworks with particular focus on MANETs.
 
+</section>
+
 <hr>
 
 ### Education
+
+<section>
 
 #### Courses
 
@@ -130,12 +166,19 @@ Starting from the basic principles of human-computer interaction, these insights
 
 This course is about how advances in geospatial technology and analytical methods have changed how we do everything, and teaches how to make maps and analyze geographic patterns using the latest tools.
 
+</section>
+<section>
 
 #### MS in Computer Science and Engineering at Università di Ferrara <br><small>September 2005 ➞ March 2008</small>
 
 **Thesis:** “Resource Exploitation and Service Discovery Capabilities for MANET Environments”.
 
+</section>
+<section>
+
 #### BS in Computer Science and Engineering at Università degli Studi di Padova <br><small>October 2001 ➞ September 2005</small>
+
+</section>
 
 <hr>
 

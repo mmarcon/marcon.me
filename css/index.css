@@ -98,9 +98,22 @@ p.lead {
     margin-bottom: 3rem;
 }
 
-.tmpl-post h1 {
+.tmpl-post .post-content {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.tmpl-post .post-content h1 {
     font-family: var(--marcon-me-title-font);
-    margin-top: 50px;
+    font-size: 24px;
+    line-height: 2.3;
+    margin: 50px 0 20px 0;
+}
+
+.tmpl-post .post-content h1 span {
+    color: var(--marcon-me-accent-color);
+    background-color: var(--marcon-me-dark-color);
+    padding: 10px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -218,6 +231,11 @@ p.lead {
     .jumbotron .tagline span {
         background-color: transparent;
         padding: 0;
+    }
+
+    .jumbotron .container {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 

@@ -120,7 +120,7 @@ Full stack software developer, rapid prototyper, Java and JavaScript engineer, w
 
 Designed and developed a number of web and iOS applications as lead engineer and front-end developer.
 
-Collaborated on several research efforts in related to network communication protocols, wireless networks, cross-layer frameworks, service discovery strategies and Service Oriented Architectures.
+Collaborated on several research efforts related to network communication protocols, wireless networks, cross-layer frameworks, service discovery strategies and Service Oriented Architectures.
 
 Designed and implemented federation strategies and Quality-of-Service monitoring for 
 tactical information managements systems in collaboration with BBN Technologies, Boeing 
@@ -136,7 +136,7 @@ Coauthored several conference and journal publications.
 Worked on strategies for providing service discovery and resources exploitation capabilities for Mobile Ad-hoc Networks (MANET) and other
 peer-to-peer environments.
 
-Gained experience with network protocol design and  development, service discovery techniques and peer-to-peer frameworks with particular focus on MANETs.
+Gained experience with network protocol design and development, service discovery techniques and peer-to-peer frameworks with particular focus on MANETs.
 
 </section>
 

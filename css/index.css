@@ -202,12 +202,22 @@ p.lead {
 }
 
 @media (max-width: 575.98px) {
+    .jumbotron {
+        background-color: var(--marcon-me-dark-color);
+    }
+
     .jumbotron h1 {
         font-size: 42px;
+        color: var(--marcon-me-light-color);
     }
 
     .jumbotron .tagline {
         font-size: 21px;
+    }
+
+    .jumbotron .tagline span {
+        background-color: transparent;
+        padding: 0;
     }
 }
 

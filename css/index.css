@@ -11,13 +11,13 @@ $color5: rgba(131, 188, 169, 1);
 */
 
 :root {
-    --marcon-me-accent-color: #D36135;
+    --marcon-me-accent-color: #FFC800;
+    --marcon-me-link-color: #0876C4;
     --marcon-me-dark-color: #162227;
     --marcon-me-light-color: #fff;
     --marcon-me-background-color: rgba(40, 43, 40, 1);
-    --marcon-me-font: 'Roboto Mono', monospace;
+    --marcon-me-font: 'Lato', sans-serif;
     --marcon-me-title-font: 'Roboto Slab', serif;
-    --marcon-me-tagline-color: rgba(162, 73, 54, 1);
 }
 body {
     font-family: var(--marcon-me-font);
@@ -36,13 +36,13 @@ body {
 }
 
 a {
-    color: var(--marcon-me-accent-color);
+    color: var(--marcon-me-link-color);
     opacity: 0.8;
 }
 
 a:hover {
     opacity: 1;
-    color: var(--marcon-me-accent-color);
+    color: var(--marcon-me-link-color);
     transition: opacity 0.5s linear;
 }
 
@@ -55,6 +55,15 @@ pre[class*="language-"] {
     font-family: var(--marcon-me-title-font);
     font-weight: 500;
     font-size: 24px;
+}
+
+.jumbotron .tagline p {
+    margin: 20px 0;
+}
+
+.jumbotron .tagline span {
+    background-color: var(--marcon-me-dark-color);
+    padding: 10px;
 }
 
 .inner {
@@ -81,7 +90,7 @@ pre[class*="language-"] {
     font-size: 1rem;
 }
 
-.tmpl-cv section {
+.tmpl-cv .content section {
     margin: 2.5rem 0;
 }
 

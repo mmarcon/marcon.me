@@ -1,6 +1,6 @@
 ---
 layout: layouts/home.njk
-title: CV
+title: CV | Massimiliano Marcon | Product Lead
 tags:
   - nav
 navtitle: CV

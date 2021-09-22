@@ -52,11 +52,21 @@ I believe in the importance of researching what users want and what others are d
 
 <section>
 
-#### Senior Product Manager, Developer Tools at [MongoDB](https://mongodb.com) <br><small>January 2020 → Now</small>
+#### Lead Product Manager, Developer Experience at [MongoDB](https://mongodb.com) <br><small>August 2021 → Now</small>
 
-After spending about a year mostly on [MongoDB Compass](https://www.mongodb.com/products/compass) and using product data and other signals from users and customers to learn the pain points people face when they work with MongoDB, we extended our tools portfolio beyond just Compass.
+The Developer Experience group mission is ensuring developers have the best experience with the MongoDB platform, from the very first steps of their onboarding, through adoption and expansion of their MongoDB usage.
 
-I am responsible for reasearch, roadmap definition and product delivery across the developer tools porfolio, including partnerships that will put MongoDB in front of new audiences.
+Within this group, I am responsible for the portfolio of developer tools and I am leading cross-product initiatives to make the developer journey smooth and make our users and customers happy and productive with MongoDB.
+
+</section>
+
+<section>
+
+#### Senior Product Manager, Developer Tools at [MongoDB](https://mongodb.com) <br><small>January 2020 → August 2021</small>
+
+After spending about a year mostly on [MongoDB Compass](https://www.mongodb.com/products/compass) and using product data and other signals from users and customers to learn the pain points people face when they work with MongoDB, we extended our tools portfolio to include Compass, the MongoDB Shell and MongoDB for VS Code.
+
+Responsible for reasearch, roadmap definition and product delivery across the developer tools porfolio, including partnerships that will put MongoDB in front of new audiences.
 
 </section>
 

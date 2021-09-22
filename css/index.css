@@ -277,14 +277,14 @@ footer li {
     right: 30px;
     bottom: 30px;
     max-width: 375px;
-    background-color: var(--marcon-me-accent-color);
+    background-color: var(--marcon-me-dark-color);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 6px rgba(0,0,0,0.3);
     margin-left: 30px;
 }
 #gdpr-cookie-message h4 {
-    color: var(--marcon-me-dark-color);
+    color: var(--marcon-me-accent-color);
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;

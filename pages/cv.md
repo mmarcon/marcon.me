@@ -66,7 +66,7 @@ Within this group, I am responsible for the portfolio of developer tools and I a
 
 After spending about a year mostly on [MongoDB Compass](https://www.mongodb.com/products/compass) and using product data and other signals from users and customers to learn the pain points people face when they work with MongoDB, we extended our tools portfolio to include Compass, the MongoDB Shell and MongoDB for VS Code.
 
-Responsible for reasearch, roadmap definition and product delivery across the developer tools porfolio, including partnerships that will put MongoDB in front of new audiences.
+Responsible for research, roadmap definition and product delivery across the developer tools porfolio, including partnerships that will put MongoDB in front of new audiences.
 
 </section>
 

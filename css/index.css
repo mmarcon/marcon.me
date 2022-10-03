@@ -99,21 +99,21 @@ p.lead {
 }
 
 .tmpl-post .post-content {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
 .tmpl-post .post-content h1 {
     font-family: var(--marcon-me-title-font);
-    font-size: 24px;
-    line-height: 2.3;
+    font-size: 48px;
     margin: 50px 0 20px 0;
+    text-decoration: underline;
+    text-decoration-color: var(--marcon-me-accent-color);
 }
 
-.tmpl-post .post-content h1 span {
-    color: var(--marcon-me-accent-color);
-    background-color: var(--marcon-me-dark-color);
-    padding: 10px;
+.tmpl-post .post-content strong {
+    text-decoration: underline;
+    text-decoration-color: var(--marcon-me-accent-color);
 }
 
 .navbar-dark .navbar-nav .nav-link {

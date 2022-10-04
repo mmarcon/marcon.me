@@ -350,3 +350,22 @@ button#gdpr-cookie-advanced {
     margin-top: 0;
     margin-right: 5px;
 }
+
+h1 .direct-link,
+h2 .direct-link,
+h3 .direct-link,
+h4 .direct-link,
+h5 .direct-link,
+h6 .direct-link {
+    visibility: hidden;
+}
+
+h1:hover .direct-link,
+h2:hover .direct-link,
+h3:hover .direct-link,
+h4:hover .direct-link,
+h5:hover .direct-link,
+h6:hover .direct-link {
+    visibility: visible;
+    text-decoration: none;
+}

@@ -34,7 +34,7 @@ Developer: *Cool. We'll make this future-proof so we don't need to update the co
 
 ```javascript
 // Log all the CLI arguments
-track(process.argv)
+track('new session', {args: process.argv})
 ```
 Customer:
 

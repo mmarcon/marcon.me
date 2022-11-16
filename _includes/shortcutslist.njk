@@ -1,0 +1,24 @@
+<ul class="shortcutlist">
+{% for shortcut in shortcutslist | reverse %}
+  <li class="card shortcutlist-item{% if shortcut.url == url %} shortcutlist-item-active{% endif %}" style="width: 18rem;">
+    <div class="card-header">{{shortcut.data.category}}</div>
+    <div class="card-body">
+      <h5 class="card-title"><a href="{{ shortcut.url | url }}" class="shortcutlist-link">{% if shortcut.data.title %}{{ shortcut.data.title }}{% else %}<code>{{ shortcut.url }}</code>{% endif %}</a></h5>
+      <h6 class="card-subtitle mb-2 text-muted"><time class="shortcutlist-date" datetime="{{ shortcut.date | htmlDateString }}">{{ shortcut.date | readableDate }}</time></h6>
+
+      <p class="card-text">
+      {{shortcut.data.description}}
+      <br>
+      <span>
+      {% for tag in shortcut.data.tags %}
+        {%- if tag != "shortcuts" -%}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl | url }}" class="badge badge-light">{{ tag }}</a>
+        {%- endif -%}
+      {% endfor %}
+      </span>
+      </p>
+    </div>
+  </li>
+{% endfor %}
+</ul>

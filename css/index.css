@@ -369,3 +369,7 @@ h6:hover .direct-link {
     visibility: visible;
     text-decoration: none;
 }
+
+ul.shortcutlist {
+    padding: 0;
+}

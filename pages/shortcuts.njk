@@ -1,0 +1,30 @@
+---
+navtitle: Shortcuts
+layout: layouts/home.njk
+permalink: /shortcuts/
+tags:
+  - nav
+---
+
+<h1>iOS and macOS Shortcuts</h1>
+
+<section>
+  <p>
+  I think Apple did a good job with Shortcuts. As long as you mostly bought into
+  having mostly Apple-branded technology, Shortcuts provide a pretty good way of automating
+  your life.
+  </p>
+
+  <p>
+  The seamless way of sharing shortcuts across multiple devices and make them public with a simple tap
+  on your iPhone sets <a href="https://de.wikipedia.org/wiki/Citizen_Developer" title="citizen developers">citizen developers</a> up for success
+  if they are interested in sharing this lightweight form of apps with the world.
+  </p>
+
+  <p>
+    Here, I am collecting the shortcuts I built for myself in the hope they'll be useful to other people as well.
+  </p>
+</section>
+
+{% set shortcutslist = collections.shortcuts %}
+{% include "shortcutslist.njk" %}

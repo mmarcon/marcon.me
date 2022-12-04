@@ -1,3 +1,4 @@
-# robotstxt.org
+Sitemap: https://marcon.me/sitemap.xml
 
 User-agent: *
+Disallow:

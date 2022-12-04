@@ -7,7 +7,7 @@ tags:
   - reead it later
   - calendar
   - keep learning
-layout: layouts/post.njk
+layout: layouts/article.njk
 ---
 
 This shortcut appears on the iOS Share Sheet and on the macOS menu bar.

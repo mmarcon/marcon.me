@@ -2,7 +2,7 @@
 title: Privacy Policy
 description: Privacy policy for marcon.me
 date: 2019-03-10
-layout: layouts/post.njk
+layout: layouts/article.njk
 permalink: /privacy-policy/index.html
 ---
 

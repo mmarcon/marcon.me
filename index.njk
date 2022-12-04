@@ -21,12 +21,12 @@ navtitle: Home
     coding: you can see some of the
     things I have built in <a href="https://github.com/mmarcon">my Github profile</a>.</p>
 
-{% if collections.posts.length > 0 %}
+{% if collections.articles.length > 0 %}
 <hr>
 <h3>Recent articles</h3>
 
-{% set postslist = collections.posts | head(-3) %}
+{% set postslist = collections.articles | head(-3) %}
 {% include "postslist.njk" %}
 
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
+<p>More posts can be found in <a href="{{ '/articles/' | url }}">the archive</a>.</p>
 {% endif %}

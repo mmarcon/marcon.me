@@ -1,13 +1,14 @@
 ---
 title: 6 telemetry best practices for CLI tools
 description: Observing how CLI tools are used during the developer journey is extremely useful to understand how developers are using our products. But what do we need to keep in mind to implement telemetry collection in CLI tools?
-date: 2022-10-03
+date: 2022-12-04
 tags:
   - telemetry
   - CLI
   - developer-tools
   - analytics
-layout: layouts/post.njk
+layout: layouts/article.njk
+permalink: /articles/cli-telemetry-best-practices/
 ---
 
 In the last few years, I've spent the majority of my time thinking about how to make developers more productive with MongoDB – or in other words, how to improve their Developer Experience.

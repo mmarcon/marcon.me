@@ -1,5 +1,16 @@
+/* vt323-regular - latin */
+@font-face {
+    font-family: 'VT323';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+        url('../fonts/vt323-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/vt323-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 :root {
     --marcon-me-accent-color: #D2FF28;
+    --marcon-me-accent-color-2: #F55D3E;
 }
 
 html[data-bs-theme="light"] .marcon-me-nav {
@@ -33,4 +44,16 @@ html[data-bs-theme="dark"] .marcon-me-nav {
     text-align: center;
     line-height: 2rem;
     border-radius: 50%;
+}
+
+.post-tag {
+    font-family: 'VT323', monospace;
+    color: var(--marcon-me-accent-color-2);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.post-tag-item:not(:last-child):after {
+    display: inline-block;
+    margin: 0 0.5rem;
 }

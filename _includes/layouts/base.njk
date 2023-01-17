@@ -29,12 +29,13 @@
 <body>
     <nav class="navbar navbar-expand-lg sticky-top marcon-me-nav">
         <div class="container topnav">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="marcon-me-navbar-toggler-icon"></span>
             </button>
-            {% if templateClass !== 'tmpl-home' and templateClass !== 'tmpl-cv' and templateClass !== 'tmpl-404' %} <a
-                class="navbar-brand text-black" href="/">Massimiliano Marcon</a> {% endif %}
+            {# {% if templateClass !== 'tmpl-home' and templateClass !== 'tmpl-cv' and templateClass !== 'tmpl-404' %} #}
+                <a class="navbar-brand text-black" href="/">Massimiliano Marcon</a>
+            {# {% endif %} #}
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav">
@@ -49,7 +50,7 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-            <a class="nav-link theme-selector" href="#"></a>
+            <a class="theme-selector" href="#"></a>
         </div>
         <!-- /.container -->
     </nav>

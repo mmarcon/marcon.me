@@ -42,7 +42,6 @@
       const activeThemeIcon = document.querySelector('.theme-selector');
       activeThemeIcon.addEventListener('click', () => {
           const theme = getCurrentTheme() === 'dark' ? 'light' : 'dark';
-          console.log(theme);
           localStorage.setItem('theme', theme);
           setTheme(theme);
           showActiveTheme(theme);

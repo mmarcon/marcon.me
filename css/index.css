@@ -22,7 +22,7 @@ html[data-bs-theme="dark"] .marcon-me-nav {
 }
 
 .theme-selector {
-
+    text-decoration: none;
 }
 
 .theme-selector.light::after {
@@ -56,4 +56,39 @@ html[data-bs-theme="dark"] .marcon-me-nav {
 .post-tag-item:not(:last-child):after {
     display: inline-block;
     margin: 0 0.5rem;
+}
+
+.nav-link, .navbar-brand, h1.marcon-me-brand {
+    font-family: 'VT323', monospace;
+}
+
+.nav-link {
+    font-size: 150%;
+}
+
+.navbar-brand, h1.marcon-me-brand {
+    text-transform: uppercase;
+}
+
+.navbar-toggler, .navbar-toggler:active {
+    border: 0;
+}
+
+.marcon-me-navbar-toggler-icon::after {
+    content: '🍔';
+    display: inline-block;
+    background-color: var(--bs-dark);
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+}
+
+html[data-bs-theme="dark"] h1.marcon-me-brand {
+    color: var(--marcon-me-accent-color-2);
+}
+
+html[data-bs-theme="light"] h1.marcon-me-brand {
+    color: var(--marcon-me-accent-color-2);
 }

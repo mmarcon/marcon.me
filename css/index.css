@@ -70,19 +70,10 @@ html[data-bs-theme="dark"] .marcon-me-nav {
     text-transform: uppercase;
 }
 
-.navbar-toggler, .navbar-toggler:active {
+.navbar-toggler, .navbar-toggler:focus {
+    box-shadow: none;
     border: 0;
-}
-
-.marcon-me-navbar-toggler-icon::after {
-    content: '🍔';
-    display: inline-block;
-    background-color: var(--bs-dark);
-    width: 2rem;
-    height: 2rem;
-    text-align: center;
-    line-height: 2rem;
-    border-radius: 50%;
+    text-align: left;
 }
 
 h1.marcon-me-brand {

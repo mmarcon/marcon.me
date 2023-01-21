@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 
 <head>
     <!-- Google tag (gtag.js) -->
@@ -17,71 +17,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ '/css/prism.css' | url }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    {# <link rel="stylesheet" href="{{ '/css/prism.css' | url }}"> #}
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml"
         title="{{ metadata.title }}">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <div class="container-fluid topnav">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    <nav class="navbar navbar-expand-lg sticky-top marcon-me-nav">
+        <div class="container topnav">
+            <a class="navbar-brand text-black" href="/">Massimiliano Marcon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <i class="fa-solid fa-burger text-black"></i>
             </button>
-            {% if templateClass !== 'tmpl-home' and templateClass !== 'tmpl-cv' and templateClass !== 'tmpl-404' %} <a
-                class="navbar-brand" href="/">Massimiliano Marcon</a> {% endif %}
+            {# {% if templateClass !== 'tmpl-home' and templateClass !== 'tmpl-cv' and templateClass !== 'tmpl-404' %} #}
+                
+            {# {% endif %} #}
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-
+                <ul class="navbar-nav me-auto">
                     {%- for nav in collections.nav -%}
-                    <li class="nav-item{% if nav.url == page.url %} active{% endif %}"><a class="nav-link"
-                            href="{{ nav.url | url }}">{{
-                            nav.data.navtitle }}</a></li>
+                    <li class="nav-item{% if nav.url == page.url %} active{% endif %}">
+                        <a class="nav-link text-black" href="{{ nav.url | url }}">{{nav.data.navtitle }}</a>
+                    </li>
                     {%- endfor -%}
                     <li class="nav-item">
-                        <a class="nav-link" href="mailto:hello@marcon.me">Contact</a>
+                        <a class="nav-link text-black" href="mailto:hello@marcon.me">Contact</a>
                     </li>
                 </ul>
+                <span class="nav-text">
+                    <a class="nav-link theme-selector text-black" href="#">
+                        <i class="fa-solid fa-moon"></i>
+                    </a>
+                </span>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
 
-    <main {% if templateClass %} class="{{ templateClass }}" {% endif %}>
+    <main {% if templateClass %} class="mt-4 {{ templateClass }}" {% endif %}>
         {{ content | safe }}
     </main>
 
-    <footer>
+    <footer class="mt-5">
         <div class="container">
             <div class="row">
-                <ul class="col-md-9">
-                    <li><a href="https://github.com/mmarcon">Github</a></li>
-                    <li><a href="https://twitter.com/mmarcon">Twitter</a></li>
-                    <li><a rel="me" href="https://mastodon.social/@mmarcon">Mastodon</a></li>
-                    <li><a href="https://linkedin.com/in/massimilianomarcon">LinkedIn</a></li>
+                <ul class="col-md-9 list-inline">
+                    <li class="list-inline-item"><a href="https://github.com/mmarcon" class="marcon-me-a2"><i class="fa-brands fa-github"></i></a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/mmarcon" class="marcon-me-a2"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a rel="me" href="https://mastodon.social/@mmarcon" class="marcon-me-a2"><i class="fa-brands fa-mastodon"></i></a></li>
+                    <li class="list-inline-item"><a href="https://linkedin.com/in/massimilianomarcon" class="marcon-me-a2"><i class="fa-brands fa-linkedin"></i></a></li>
                 </ul>
-                <p class="col-md-3 copyright text-right"><small>&copy; 2021 Massimiliano Marcon</small></p>
+                <p class="col-md-3 copyright text-end "><small>&copy; 2023 Massimiliano Marcon</small></p>
             </div>
         </div>
     </footer>
 
     <!-- Current page: {{ page.url | url }} -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-    <script src="{{ '/js/ihavecookies.min.js' | url }}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    {# <script src="{{ '/js/ihavecookies.min.js' | url }}"></script> #}
+    <script src="{{ '/js/index.js' | url }}"></script>
     <script>
-        $(function () {
+        {# $(function () {
             var navMain = $('.navbar-collapse');
             navMain.on('click', 'a', null, function () {
                 navMain.collapse('hide');
@@ -91,7 +91,7 @@
                 cookieTypes: [],
                 message: 'I use cookies to anonymously track visits to my website.'
             });
-        });
+        }); #}
     </script>
     <script>
         (function (i, s, o, g, r, a, m) {
@@ -108,6 +108,7 @@
         ga('create', 'UA-29386760-2', 'auto');
         ga('send', 'pageview');
     </script>
+    <script src="https://kit.fontawesome.com/4b0af7a256.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

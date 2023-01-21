@@ -2,9 +2,9 @@
 title: Remember to Read
 description: iOS and macOS shortcut to add articles to read to your calendar.
 date: 2022-11-16
-category: Reead It Later
+category: Read It Later
 tags:
-  - reead it later
+  - read it later
   - calendar
   - keep learning
 layout: layouts/article.njk

@@ -21,31 +21,6 @@ html[data-bs-theme="dark"] .marcon-me-nav {
     background-color: var(--marcon-me-accent-color);
 }
 
-.theme-selector {
-    text-decoration: none;
-}
-
-.theme-selector.light::after {
-    content: '🌙';
-    display: block;
-    background-color: var(--bs-dark);
-    width: 2rem;
-    height: 2rem;
-    text-align: center;
-    line-height: 2rem;
-    border-radius: 50%;
-}
-.theme-selector.dark::after {
-    content: '☀️';
-    display: inline-block;
-    background-color: var(--bs-dark);
-    width: 2rem;
-    height: 2rem;
-    text-align: center;
-    line-height: 2rem;
-    border-radius: 50%;
-}
-
 .post-tag {
     font-family: 'VT323', monospace;
     color: var(--marcon-me-accent-color-2);

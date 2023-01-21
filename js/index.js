@@ -26,9 +26,9 @@
   setTheme(getPreferredTheme());
 
   const showActiveTheme = theme => {
-      const activeThemeIcon = document.querySelector('.theme-selector');
-      activeThemeIcon.classList.remove('dark', 'light');
-      activeThemeIcon.classList.add(theme);
+      const activeThemeIcon = document.querySelector('.theme-selector i');
+      activeThemeIcon.classList.remove('fa-moon', 'fa-sun');
+      activeThemeIcon.classList.add(theme === 'dark' ? 'fa-sun' : 'fa-moon');
   }
 
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {

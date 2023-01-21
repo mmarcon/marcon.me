@@ -85,10 +85,11 @@ html[data-bs-theme="dark"] .marcon-me-nav {
     border-radius: 50%;
 }
 
-html[data-bs-theme="dark"] h1.marcon-me-brand {
-    color: var(--marcon-me-accent-color-2);
+h1.marcon-me-brand {
+    color: var(--marcon-me-accent-color);
+    text-shadow: 2px 2px 0 var(--bs-dark);
 }
 
-html[data-bs-theme="light"] h1.marcon-me-brand {
+.marcon-me-a2 {
     color: var(--marcon-me-accent-color-2);
 }

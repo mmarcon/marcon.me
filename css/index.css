@@ -79,3 +79,8 @@ h6:hover .direct-link {
   visibility: visible;
   text-decoration: none;
 }
+
+.tmpl-post figure {
+    border-left: 10px solid var(--marcon-me-accent-color-2);
+    padding-left: 0.5rem;
+}

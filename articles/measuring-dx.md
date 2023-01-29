@@ -31,9 +31,11 @@ And we also need to think about how developers *feel* while they do that. Do the
 
 These are all things that we always need to keep in mind, and ideally all things we can measure.
 
-## Developer Experience North Star
+## Developer Experience north star metrics
 
-When working on a product, I feel it's always useful to have a North Star with an associated metric we can measure. This applies to DX and DX products too. Now, what should our North Star be, when we talk about improving DX? How do we measure if we are going in the right direction?
+When working on a product, it's always useful to have a north star with an associated metric we can measure. This applies to DX and DX products too.
+
+But what should our north star be, when we talk about improving DX? How do we measure if we are going in the right direction?
 
 To kick off my research, I asked this question to [ChatGPT](http://chat.openai.com/):
 
@@ -73,8 +75,16 @@ Developers often think about **efficiency**, about **getting stuff done with the
 
 **If we are introducing a product that has to become part of their workflows or part of the toolchain, for it to be successful we need to make sure it is reducing the time they spend to complete a certain task.**
 
-Thinking about this a bit more, I realized that with my team at MongoDB we went through an exercise of defining and tracking a similar metric. We were working on [Compass, the GUI for MongoDB](https://www.mongodb.com/products/compass) and trying to figure out how to make it better.
+Thinking about this a bit more, I realized that with my team at MongoDB we went through an exercise of defining and tracking a similar metric when we were working on [Compass, the GUI for MongoDB](https://www.mongodb.com/products/compass), trying to figure out how to make it significantly better.
 
 One of the biggest feedback areas from users and customers was around performance and startup time. Based on qualitative and analytics data, we also knew that the vast majority of our users use a tool like Compass to query MongoDB and explore their data. At the same time, we knew that strategically, one of our priorities is to ensure customers get the most out of MongoDB's query language.
 
-With all this information at hand, the team reached the conclusion that what we should be optimizing for – and the metric we should be tracking – is "time to first query" or TTFQ.
+With all this information at hand, the team reached the conclusion that what we should be optimizing for – and the metric we should be tracking – is "time to first query" (TTFQ).
+
+A metric like TTFQ is a good metric because:
+
+* **it is easy to set a goal** for what you think a good value should be, e.g. 5 or 10 seconds;
+* **you can continuosly monitor that value** as part of your test suite, so if you make changes to the product that makes the experience worse, you know immediately;
+* **you can test it qualitatevely with customers by asking a simple question**, e.g. "with change X, do you feel performing task T is fast enough (or faster than it used to be)?".
+
+**The great thing about TTFQ and similar metrics is that they are *leading indicators* of whether your are going in the right direction with your product**, i.e. they give you an early perspective on the success of the changes you make to your product. **They constitute a much more effective and granular way to understand the impact of your work than *lagging indicators*** like satisfaction metrics (e.g. NPS) or adoption and retention metrics **do**.

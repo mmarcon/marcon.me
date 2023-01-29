@@ -23,13 +23,19 @@ First of all, let's define Developer Experience (or DX, or DevX):
   </figcaption>
 </figure>
 
-I feel this is a good definition because it captures an important aspect of it: it's about **interactions** and **feelings**. This means that when we work on DX we need to think about all the touchpoints developers have with our products and how they work with them and integrate them within the greater ecosystem of tools and processes they typically work with. And we also need to think about how developers *feel* while they do that. Do they feel annoyed because your product seems kind of backwards? Or do they feel satsfied because your product fits perfectly into their way of working and thinking and makes them save time or effort when performing a particular task in the direction of meeeting their objective?
+I feel this is a good definition because it captures an important aspect of it: it's about **interactions** and **feelings**.
+
+This means that when we work on DX we need to think about all the touchpoints developers have with our products and how they work with them and integrate them within the greater ecosystem of tools and processes they typically work with.
+
+And we also need to think about how developers *feel* while they do that. Do they feel annoyed because your product seems kind of backwards? Or do they feel satsfied because your product fits perfectly into their way of working and thinking and makes them save time or effort when performing a particular task in the direction of meeeting their objective?
 
 These are all things that we always need to keep in mind, and ideally all things we can measure.
 
 ## Developer Experience North Star
 
-When working on a product, I feel it's always useful to have a North Star with an associated metric we can measure. This applies to DX and DX products too. Now, what should our North Star be, when we talk about improving DX? To kickoff my research, I asked this question to ChatGPT:
+When working on a product, I feel it's always useful to have a North Star with an associated metric we can measure. This applies to DX and DX products too. Now, what should our North Star be, when we talk about improving DX? How do we measure if we are going in the right direction?
+
+To kick off my research, I asked this question to [ChatGPT](http://chat.openai.com/):
 
 <div class="card mb-3">
 <div class="card-body font-monospace">
@@ -42,7 +48,7 @@ When working on a product, I feel it's always useful to have a North Star with a
   <p>
     <i class="fa-solid fa-robot"></i>
     <strong>If I had to pick one metric as a "north star" to measure developer experience, it would likely be "time to complete a task" (TTC).</strong>
-  TTC is a metric that measures the amount of time it takes for a developer to complete a task using a specific product or tool, and can provide insight into how user-friendly and efficient the product is. This can include time spent on coding, testing, debugging and deployment. A low TTC indicates that developers are able to complete tasks quickly and efficiently, which is generally considered a positive indicator of developer experience.
+  TTC is a metric that measures the amount of time it takes for a developer to complete a task using a specific product or tool, and can provide insight into how user-friendly and efficient the product is. This can include time spent on coding, testing, debugging and deployment. <strong>A low TTC indicates that developers are able to complete tasks quickly and efficiently, which is generally considered a positive indicator of developer experience.</strong><br>
   It's worth mentioning that selecting a metric as a "north star" is very much dependent on the context of the product and the goal of the product. "Time to Complete Task" could be a good metric for one product but for other product it may not be so. There can be a trade-off between having one metric for everything and having different metric for different use-cases.
   </p>
   <p>
@@ -58,3 +64,17 @@ When working on a product, I feel it's always useful to have a North Star with a
   </p>
 </div>
 </div>
+
+I feel ChatGPT is on the right track here. Let's unpack what it's saying.
+
+First of all, ChatGPT suggests looking at "time to complete a task", or TTC. This is a bit of a high-level metric, but one that can be specialized to apply to most technical products. 
+
+Developers often think about **efficiency**, about **getting stuff done with the least amount of effort**, about **saving time**, about **shortening the feedback loop**.
+
+**If we are introducing a product that has to become part of their workflows or part of the toolchain, for it to be successful we need to make sure it is reducing the time they spend to complete a certain task.**
+
+Thinking about this a bit more, I realized that with my team at MongoDB we went through an exercise of defining and tracking a similar metric. We were working on [Compass, the GUI for MongoDB](https://www.mongodb.com/products/compass) and trying to figure out how to make it better.
+
+One of the biggest feedback areas from users and customers was around performance and startup time. Based on qualitative and analytics data, we also knew that the vast majority of our users use a tool like Compass to query MongoDB and explore their data. At the same time, we knew that strategically, one of our priorities is to ensure customers get the most out of MongoDB's query language.
+
+With all this information at hand, the team reached the conclusion that what we should be optimizing for – and the metric we should be tracking – is "time to first query" or TTFQ.

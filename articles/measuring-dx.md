@@ -27,7 +27,7 @@ I feel this is a good definition because it captures an important aspect of it: 
 
 This means that when we work on DX we need to think about all the touchpoints developers have with our products and how they work with them and integrate them within the greater ecosystem of tools and processes they typically work with.
 
-And we also need to think about how developers *feel* while they do that. Do they feel annoyed because your product seems kind of backwards? Or do they feel satsfied because your product fits perfectly into their way of working and thinking and makes them save time or effort when performing a particular task in the direction of meeeting their objective?
+And we also need to think about how developers *feel* while they do that. Do they feel annoyed because your product seems kind of backwards? Or do they feel satisfied because your product fits perfectly into their way of working and thinking and makes them save time or effort when performing a particular task in the direction of meeting their objective?
 
 These are all things that we always need to keep in mind, and ideally all things we can measure.
 

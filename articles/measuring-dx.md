@@ -27,7 +27,7 @@ First of all, let's define Developer Experience (DevX):
 
 I feel this is a good definition because it captures an important aspect of it: it's about **interactions** and **feelings**.
 
-This means that when we work on DevX we need to think about all the touchpoints developers have with our products and how they work with them and integrate them within the greater ecosystem of tools and processes they typically work with.
+When we work on DevX, we need to think about all the touchpoints developers have with our products, how they work with them, and how they integrate them with the greater ecosystem of tools and processes they typically work with. These represent the *interactions*.
 
 And we also need to think about how developers *feel* while they do that. Do they feel annoyed because your product seems kind of backwards? Or do they feel satisfied because your product fits perfectly into their way of working and thinking and makes them save time or effort when performing a particular task in the direction of meeting their objective?
 
@@ -81,6 +81,12 @@ A metric like TTFQ is a good metric because:
 * **You can test it qualitatevely with customers by asking a simple question**, e.g. "with change X, do you feel performing task T is fast enough (or faster than it used to be)?".
 
 **The great thing about TTFQ and similar metrics is that they are *leading indicators* of whether your are going in the right direction with your product**, i.e. they give you an early perspective on the success of the changes you make to your product. **They constitute a much more effective and granular way to understand the impact of your work than *lagging indicators*** such as satisfaction metrics (e.g. NPS) or adoption and retention metrics do.
+
+Let's back to the *interactions* and *feelings* that I described above and see how TTC can be a good proxy for them.
+
+As we lower the TTC, we make interactions more effective: it means our product helps developers complete the task we are set to facilitate more effectively, either with our product in isolation or with our product as part of a greater ecosystem of tools and services that are part of their journey.
+
+And what about feelings? Well, if a product makes tasks easier and faster to perform, it's not unlikely that its users will feel satisfied. And when you go and ask for qualitative feedback, developers will for sure let you know how they feel about the change. 
 
 ## Conclusion
 

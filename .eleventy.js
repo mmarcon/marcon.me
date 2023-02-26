@@ -51,9 +51,18 @@ module.exports = function(eleventyConfig) {
     permalinkSymbol: "#"
   };
 
-  eleventyConfig.setLibrary("md", markdownIt(options)
-    .use(markdownItAnchor, opts)
-  );
+  let md = new markdownIt(options);
+  md.use(markdownItAnchor, opts);
+  
+  md.renderer.rules.image = function (tokens, idx, options, env, slf) {
+    const token = tokens[idx];
+    token.attrs[token.attrIndex('alt')][1] = slf.renderInlineAsText(token.children, options, env);
+    token.attrSet('class', 'img-fluid');
+    return slf.renderToken(tokens, idx, options)
+  }
+  
+
+  eleventyConfig.setLibrary("md", md);
 
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {

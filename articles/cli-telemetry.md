@@ -5,7 +5,7 @@ date: 2022-12-04
 tags:
   - telemetry
   - CLI
-  - developer-tools
+  - developer tools
   - analytics
 layout: layouts/article.njk
 permalink: /articles/cli-telemetry-best-practices/

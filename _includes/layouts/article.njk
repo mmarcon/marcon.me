@@ -17,6 +17,10 @@ templateClass: tmpl-post
 
             <p class="lead">{{ description }}</p>
 
+            {%- if header -%}
+                <img src="/img/{{ header }}" class="img-fluid rounded mb-4"/>
+            {%- endif -%}
+
             {{ content | safe }}
 
             <p><a href="{{ '/' | url }}">← Home</a></p>

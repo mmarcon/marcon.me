@@ -37,7 +37,7 @@ These are all things that we always need to keep in mind, and ideally all things
 
 When we build products, one of the areas we focus on is their user experience. When the products or services we build are targeted at developers, then what we say we focus on is developer experience. In particular, we often make changes, add tools, APIs, SDKs and intgrations to "improve the developer experience". But how do we know we are improving developer experience? We need to be able to measure it to be able to state that we are actually improving it.
 
-But how do we measure something as abstract as developer experience? What should our primary metric be? How do we measure if we are going in the right direction?
+How do we measure something as abstract as developer experience? What should our primary metric be? How do we measure if we are going in the right direction?
 
 To kick off my research, I asked this question to [ChatGPT](http://chat.openai.com/):
 
@@ -46,7 +46,7 @@ To kick off my research, I asked this question to [ChatGPT](http://chat.openai.c
 
   <p>
     <i class="fa-solid fa-user"></i>
-    If you had to pick one metric to measure developer experiencr, what would it be?
+    If you had to pick one metric to measure developer experience, what would it be?
   </p>
 
   <p>

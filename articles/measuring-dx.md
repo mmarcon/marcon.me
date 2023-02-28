@@ -1,7 +1,7 @@
 ---
 title: Measuring Developer Experience
 description: A lot is happening in the area of Developer Experience (DevX). A lot of tech companies are set to improve their DevX. Startups are being founded on the premise of improving DevX. But the first thing to do to improve something is to measure it.
-date: 2022-12-04
+date: 2023-02-26
 tags:
   - developer experience
   - chatgpt
@@ -9,7 +9,7 @@ tags:
   - products for developers
 layout: layouts/article.njk
 header: measuring-dx/measure.jpg
-# permalink: /articles/...
+permalink: /articles/measuring-devx
 ---
 
 ## What does Developer Experience mean?

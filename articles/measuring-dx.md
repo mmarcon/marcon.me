@@ -9,7 +9,7 @@ tags:
   - products for developers
 layout: layouts/article.njk
 header: measuring-dx/measure.jpg
-permalink: /articles/measuring-devx
+permalink: /articles/measuring-devx/
 ---
 
 ## What does Developer Experience mean?

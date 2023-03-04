@@ -80,7 +80,7 @@ A metric like TTFQ is a good metric because:
 * **You can continuously monitor that value** as part of your test suite. This way, if you make changes to the product that makes the experience worse, you know immediately.
 * **You can test it qualitatively with customers by asking a simple question**, e.g. "with change X, do you feel performing task T is fast enough (or faster than it used to be)?".
 
-**The great thing about TTFQ and similar metrics is that they are *leading indicators* of whether your are going in the right direction with your product**, i.e. they give you an early perspective on the success of the changes you make to your product. **They constitute a much more effective and granular way to understand the impact of your work than *lagging indicators*** such as satisfaction metrics (e.g. NPS) or adoption and retention metrics do.
+**The great thing about TTFQ and similar metrics is that they are *leading indicators* of whether you are going in the right direction with your product**, i.e. they give you an early perspective on the success of the changes you make to your product. **They constitute a much more effective and granular way to understand the impact of your work than *lagging indicators*** such as satisfaction metrics (e.g. NPS) or adoption and retention metrics do.
 
 Let's back to the *interactions* and *feelings* that I described above and see how TTC can be a good proxy for them.
 

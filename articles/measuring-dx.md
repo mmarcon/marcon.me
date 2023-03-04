@@ -82,7 +82,7 @@ A metric like TTFQ is a good metric because:
 
 **The great thing about TTFQ and similar metrics is that they are *leading indicators* of whether you are going in the right direction with your product**, i.e. they give you an early perspective on the success of the changes you make to your product. **They constitute a much more effective and granular way to understand the impact of your work than *lagging indicators*** such as satisfaction metrics (e.g. NPS) or adoption and retention metrics do.
 
-Let's back to the *interactions* and *feelings* that I described above and see how TTC can be a good proxy for them.
+Let's look back to the *interactions* and *feelings* that I described above and see how TTC can be a good proxy for them.
 
 As we lower the TTC, we make interactions more effective: it means our product helps developers complete the task we are set to facilitate more effectively, either with our product in isolation or with our product as part of a greater ecosystem of tools and services that are part of their journey.
 

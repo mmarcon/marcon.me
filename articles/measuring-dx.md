@@ -77,8 +77,8 @@ With all this information at hand, the team reached the conclusion that what we 
 A metric like TTFQ is a good metric because:
 
 * **It is easy to set a goal** for what you think a good value should be, e.g. 5 or 10 seconds.
-* **You can continuosly monitor that value** as part of your test suite. This way, if you make changes to the product that makes the experience worse, you know immediately.
-* **You can test it qualitatevely with customers by asking a simple question**, e.g. "with change X, do you feel performing task T is fast enough (or faster than it used to be)?".
+* **You can continuously monitor that value** as part of your test suite. This way, if you make changes to the product that makes the experience worse, you know immediately.
+* **You can test it qualitatively with customers by asking a simple question**, e.g. "with change X, do you feel performing task T is fast enough (or faster than it used to be)?".
 
 **The great thing about TTFQ and similar metrics is that they are *leading indicators* of whether your are going in the right direction with your product**, i.e. they give you an early perspective on the success of the changes you make to your product. **They constitute a much more effective and granular way to understand the impact of your work than *lagging indicators*** such as satisfaction metrics (e.g. NPS) or adoption and retention metrics do.
 

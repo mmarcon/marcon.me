@@ -52,7 +52,15 @@ I believe in the importance of researching what users want and what others are d
 
 <section>
 
-#### Lead Product Manager, Developer Experience at [MongoDB](https://mongodb.com) <br><small>August 2021 → Now</small>
+#### Director of Product Managment, Developer Tools at [MongoDB](https://mongodb.com) <br><small>January 2024 → Now</small>
+
+I look after the portfolio of developer tools for MongoDB (Compass, MongoDB Shell, IDE plugins, Atlas CLI) and lead a team of product managers that are working on making developers who build applications on MongoDB efficient and productive.
+
+</section>
+
+<section>
+
+#### Lead Product Manager, Developer Experience at [MongoDB](https://mongodb.com) <br><small>August 2021 → Jnauary 2024</small>
 
 The Developer Experience group's mission is to ensure developers have the best experience with the MongoDB platform, from the very first steps of their onboarding, through adoption and expansion of their MongoDB usage.
 
